@@ -1,0 +1,233 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/u_framework/!svn/ver/1464/branches/ribin/Source/BillBase/BillBase/Auditing
+END
+AuditFlowSearchManager.cs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/u_framework/!svn/ver/664/branches/ribin/Source/BillBase/BillBase/Auditing/AuditFlowSearchManager.cs
+END
+FrmBillAuditFlowUserSet.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/u_framework/!svn/ver/908/branches/ribin/Source/BillBase/BillBase/Auditing/FrmBillAuditFlowUserSet.Designer.cs
+END
+FrmBillAuditFlowSet.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/u_framework/!svn/ver/1114/branches/ribin/Source/BillBase/BillBase/Auditing/FrmBillAuditFlowSet.Designer.cs
+END
+FrmBillAuditFlowSet.cs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/u_framework/!svn/ver/1428/branches/ribin/Source/BillBase/BillBase/Auditing/FrmBillAuditFlowSet.cs
+END
+FrmAuditList.resx
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/u_framework/!svn/ver/851/branches/ribin/Source/BillBase/BillBase/Auditing/FrmAuditList.resx
+END
+IAuditFlowSet.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/u_framework/!svn/ver/783/branches/ribin/Source/BillBase/BillBase/Auditing/IAuditFlowSet.cs
+END
+IAuditFrm.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/u_framework/!svn/ver/703/branches/ribin/Source/BillBase/BillBase/Auditing/IAuditFrm.cs
+END
+FrmBillAuditFlowUserInput.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/u_framework/!svn/ver/913/branches/ribin/Source/BillBase/BillBase/Auditing/FrmBillAuditFlowUserInput.cs
+END
+FrmJFWAuditFlowSet.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/u_framework/!svn/ver/1115/branches/ribin/Source/BillBase/BillBase/Auditing/FrmJFWAuditFlowSet.Designer.cs
+END
+FrmJFWAuditFlowSet.cs
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/u_framework/!svn/ver/1429/branches/ribin/Source/BillBase/BillBase/Auditing/FrmJFWAuditFlowSet.cs
+END
+AuditBillFace.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/u_framework/!svn/ver/1228/branches/ribin/Source/BillBase/BillBase/Auditing/AuditBillFace.cs
+END
+FrmBillAudit.resx
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/u_framework/!svn/ver/522/branches/ribin/Source/BillBase/BillBase/Auditing/FrmBillAudit.resx
+END
+FrmBillAuditFlowSearch.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/u_framework/!svn/ver/522/branches/ribin/Source/BillBase/BillBase/Auditing/FrmBillAuditFlowSearch.Designer.cs
+END
+FrmBillAuditFlowSearch.cs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/u_framework/!svn/ver/522/branches/ribin/Source/BillBase/BillBase/Auditing/FrmBillAuditFlowSearch.cs
+END
+AuditBillFlowManager.cs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/u_framework/!svn/ver/903/branches/ribin/Source/BillBase/BillBase/Auditing/AuditBillFlowManager.cs
+END
+FrmBillAuditFlowUserSet.resx
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/u_framework/!svn/ver/522/branches/ribin/Source/BillBase/BillBase/Auditing/FrmBillAuditFlowUserSet.resx
+END
+AuditManager.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/u_framework/!svn/ver/1117/branches/ribin/Source/BillBase/BillBase/Auditing/AuditManager.cs
+END
+FrmBillAuditFlowInput.resx
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/u_framework/!svn/ver/522/branches/ribin/Source/BillBase/BillBase/Auditing/FrmBillAuditFlowInput.resx
+END
+AuditBillManager.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/u_framework/!svn/ver/1267/branches/ribin/Source/BillBase/BillBase/Auditing/AuditBillManager.cs
+END
+FrmAuditGroup.resx
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/u_framework/!svn/ver/758/branches/ribin/Source/BillBase/BillBase/Auditing/FrmAuditGroup.resx
+END
+FrmAuditBillSet.resx
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/u_framework/!svn/ver/694/branches/ribin/Source/BillBase/BillBase/Auditing/FrmAuditBillSet.resx
+END
+AuditBillFlowUserSetManager.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/u_framework/!svn/ver/522/branches/ribin/Source/BillBase/BillBase/Auditing/AuditBillFlowUserSetManager.cs
+END
+FrmAuditList.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/u_framework/!svn/ver/852/branches/ribin/Source/BillBase/BillBase/Auditing/FrmAuditList.cs
+END
+FrmBillAudit.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/u_framework/!svn/ver/1492/branches/ribin/Source/BillBase/BillBase/Auditing/FrmBillAudit.Designer.cs
+END
+FrmBillAudit.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/u_framework/!svn/ver/1492/branches/ribin/Source/BillBase/BillBase/Auditing/FrmBillAudit.cs
+END
+FrmBillAuditFlowUserSet.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/u_framework/!svn/ver/908/branches/ribin/Source/BillBase/BillBase/Auditing/FrmBillAuditFlowUserSet.cs
+END
+FrmBillAuditFlowUserInput.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/u_framework/!svn/ver/522/branches/ribin/Source/BillBase/BillBase/Auditing/FrmBillAuditFlowUserInput.Designer.cs
+END
+FrmBillAuditFlowInput.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/u_framework/!svn/ver/905/branches/ribin/Source/BillBase/BillBase/Auditing/FrmBillAuditFlowInput.Designer.cs
+END
+FrmBillAuditFlowInput.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/u_framework/!svn/ver/905/branches/ribin/Source/BillBase/BillBase/Auditing/FrmBillAuditFlowInput.cs
+END
+FrmAuditGroup.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/u_framework/!svn/ver/758/branches/ribin/Source/BillBase/BillBase/Auditing/FrmAuditGroup.Designer.cs
+END
+FrmAuditGroup.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/u_framework/!svn/ver/1224/branches/ribin/Source/BillBase/BillBase/Auditing/FrmAuditGroup.cs
+END
+FrmAuditBillSet.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/u_framework/!svn/ver/694/branches/ribin/Source/BillBase/BillBase/Auditing/FrmAuditBillSet.Designer.cs
+END
+FrmAuditBillSet.cs
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/u_framework/!svn/ver/694/branches/ribin/Source/BillBase/BillBase/Auditing/FrmAuditBillSet.cs
+END
+FrmBillAuditFlowSet.resx
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/u_framework/!svn/ver/784/branches/ribin/Source/BillBase/BillBase/Auditing/FrmBillAuditFlowSet.resx
+END
+FrmBillAuditFlowUserInput.resx
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/u_framework/!svn/ver/522/branches/ribin/Source/BillBase/BillBase/Auditing/FrmBillAuditFlowUserInput.resx
+END
+FrmJFWAuditFlowSet.resx
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/u_framework/!svn/ver/782/branches/ribin/Source/BillBase/BillBase/Auditing/FrmJFWAuditFlowSet.resx
+END
+FrmAuditList.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/u_framework/!svn/ver/1113/branches/ribin/Source/BillBase/BillBase/Auditing/FrmAuditList.Designer.cs
+END
+FrmBillAuditFlowSearch.resx
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/u_framework/!svn/ver/522/branches/ribin/Source/BillBase/BillBase/Auditing/FrmBillAuditFlowSearch.resx
+END

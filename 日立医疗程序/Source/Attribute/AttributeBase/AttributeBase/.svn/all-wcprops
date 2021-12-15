@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/u_framework/!svn/ver/4/branches/ribin/Source/Attribute/AttributeBase/AttributeBase
+END
+ProxyBase.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/u_framework/!svn/ver/4/branches/ribin/Source/Attribute/AttributeBase/AttributeBase/ProxyBase.cs
+END
+BaoAttribute.csproj.user
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/u_framework/!svn/ver/4/branches/ribin/Source/Attribute/AttributeBase/AttributeBase/BaoAttribute.csproj.user
+END
+AttributeBase.cs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/u_framework/!svn/ver/4/branches/ribin/Source/Attribute/AttributeBase/AttributeBase/AttributeBase.cs
+END
+BaoAttribute.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/u_framework/!svn/ver/4/branches/ribin/Source/Attribute/AttributeBase/AttributeBase/BaoAttribute.csproj
+END
+ProxyTransaction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/u_framework/!svn/ver/4/branches/ribin/Source/Attribute/AttributeBase/AttributeBase/ProxyTransaction.cs
+END
+AttributeTransaction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/u_framework/!svn/ver/4/branches/ribin/Source/Attribute/AttributeBase/AttributeBase/AttributeTransaction.cs
+END
+TransactionAttribute.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/u_framework/!svn/ver/4/branches/ribin/Source/Attribute/AttributeBase/AttributeBase/TransactionAttribute.cs
+END

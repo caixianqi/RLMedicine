@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/u_framework/!svn/ver/1052/branches/ribin/Source/BillBase/BillBase/BillTemplate
+END
+TemplateFrm.resx
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/u_framework/!svn/ver/962/branches/ribin/Source/BillBase/BillBase/BillTemplate/TemplateFrm.resx
+END
+TemplateBill.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/u_framework/!svn/ver/1052/branches/ribin/Source/BillBase/BillBase/BillTemplate/TemplateBill.cs
+END
+TemplateFrm.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/u_framework/!svn/ver/962/branches/ribin/Source/BillBase/BillBase/BillTemplate/TemplateFrm.Designer.cs
+END
+TemplateFrm.cs
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/u_framework/!svn/ver/962/branches/ribin/Source/BillBase/BillBase/BillTemplate/TemplateFrm.cs
+END
+TemplateTableItem.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/u_framework/!svn/ver/963/branches/ribin/Source/BillBase/BillBase/BillTemplate/TemplateTableItem.cs
+END
+TemplateTableMain.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/u_framework/!svn/ver/964/branches/ribin/Source/BillBase/BillBase/BillTemplate/TemplateTableMain.cs
+END

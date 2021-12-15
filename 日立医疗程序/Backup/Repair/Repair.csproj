@@ -1,0 +1,443 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D56FBC39-1D38-4814-87F8-D4185B82B2ED}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Repair</RootNamespace>
+    <AssemblyName>Repair</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Source\FormMain\FormMain\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DataAccess, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DataAcc\DataAccess\bin\Debug\DataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v7.1, Version=7.1.1.0, Culture=neutral, PublicKeyToken=8de1562349429be3, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v7.1, Version=7.1.1.0, Culture=neutral, PublicKeyToken=8de1562349429be3, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v7.1, Version=7.1.1.0, Culture=neutral, PublicKeyToken=8de1562349429be3, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v7.1, Version=7.1.1.0, Culture=neutral, PublicKeyToken=8de1562349429be3, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraNavBar.v7.1, Version=7.1.1.0, Culture=neutral, PublicKeyToken=8de1562349429be3" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="U8Global, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\U8Global\bin\Debug\U8Global.dll</HintPath>
+    </Reference>
+    <Reference Include="UFBaseLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Source\U8dll\UFBaseLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bill\BillBill.cs" />
+    <Compile Include="Bill\BillDetails.cs" />
+    <Compile Include="Bill\BillMainData.cs" />
+    <Compile Include="Bill\Bill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bill\Bill.Designer.cs">
+      <DependentUpon>Bill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bill\BillList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bill\BillList.Designer.cs">
+      <DependentUpon>BillList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListQuery.Designer.cs">
+      <DependentUpon>ListQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RepairMission\EndRepairMission.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RepairMission\EndRepairMission.Designer.cs">
+      <DependentUpon>EndRepairMission.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Free\FreeApplication.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Free\FreeApplication.Designer.cs">
+      <DependentUpon>FreeApplication.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Free\FreeApplicationBill.cs" />
+    <Compile Include="Free\FreeApplicationData.cs" />
+    <Compile Include="Free\FreeApplicationList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Free\FreeApplicationList.Designer.cs">
+      <DependentUpon>FreeApplicationList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bill\MoneyReceiveData.cs" />
+    <Compile Include="Price\PriceList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Price\PriceList.Designer.cs">
+      <DependentUpon>PriceList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PartsInentory\PartsInentory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PartsInentory\PartsInentory.Designer.cs">
+      <DependentUpon>PartsInentory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PartsApplication\PartsApplicationList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PartsApplication\PartsApplicationList.Designer.cs">
+      <DependentUpon>PartsApplicationList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FaultFeedback\FaultFeedback.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FaultFeedback\FaultFeedback.Designer.cs">
+      <DependentUpon>FaultFeedback.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FaultFeedback\FaultFeedbackBill.cs" />
+    <Compile Include="FaultFeedback\FaultFeedbackDetails.cs" />
+    <Compile Include="FaultFeedback\FaultFeedbackMain.cs" />
+    <Compile Include="FaultFeedback\FaultFeedbackList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FaultFeedback\FaultFeedbackList.Designer.cs">
+      <DependentUpon>FaultFeedbackList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PartsApplication\PartsApplication.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PartsApplication\PartsApplication.Designer.cs">
+      <DependentUpon>PartsApplication.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PartsApplication\PartsApplicationBill.cs" />
+    <Compile Include="PartsApplication\PartsApplicationItem.cs" />
+    <Compile Include="PartsApplication\PartsApplicationMain.cs" />
+    <Compile Include="PartsInentory\PartsInentoryList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PartsInentory\PartsInentoryList.Designer.cs">
+      <DependentUpon>PartsInentoryList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PartsInentory\PartsInventoryBill.cs" />
+    <Compile Include="PartsInentory\PartsInventoryDetails.cs" />
+    <Compile Include="PartsInentory\PartsInventoryMain.cs" />
+    <Compile Include="PartsInentory\PartsUseAndReturnInfo.cs" />
+    <Compile Include="Price\Price.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Price\Price.Designer.cs">
+      <DependentUpon>Price.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Price\PriceBill.cs" />
+    <Compile Include="Price\PriceDetailsData.cs" />
+    <Compile Include="Price\PriceMainData.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RepairMission\RepairMission.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RepairMission\RepairMission.Designer.cs">
+      <DependentUpon>RepairMission.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RepairMission\RepairMissionBill.cs" />
+    <Compile Include="RepairMission\RepairMissionList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RepairMission\RepairMissionList.Designer.cs">
+      <DependentUpon>RepairMissionList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RepairMission\RepairMissionMainData.cs" />
+    <Compile Include="Report\AmountManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\AmountManagement.Designer.cs">
+      <DependentUpon>AmountManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\AmountManagementFilter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\AmountManagementFilter.Designer.cs">
+      <DependentUpon>AmountManagementFilter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\BillDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\BillDetails.Designer.cs">
+      <DependentUpon>BillDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\InstallWorkCountFilter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\InstallWorkCountFilter.Designer.cs">
+      <DependentUpon>InstallWorkCountFilter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\InvUse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\InvUse.Designer.cs">
+      <DependentUpon>InvUse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\InvUserFilter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\InvUserFilter.Designer.cs">
+      <DependentUpon>InvUserFilter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\RegionWorkCount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\RegionWorkCount.Designer.cs">
+      <DependentUpon>RegionWorkCount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\RegionWorkCountFilter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\RegionWorkCountFilter.Designer.cs">
+      <DependentUpon>RegionWorkCountFilter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\RepairMissionSchedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\RepairMissionSchedule.Designer.cs">
+      <DependentUpon>RepairMissionSchedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\RepairMissionScheduleFilter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\RepairMissionScheduleFilter.Designer.cs">
+      <DependentUpon>RepairMissionScheduleFilter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\RepairQualityAndWork.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\RepairQualityAndWork.Designer.cs">
+      <DependentUpon>RepairQualityAndWork.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\RepairQualityAndWorkFilter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\RepairQualityAndWorkFilter.Designer.cs">
+      <DependentUpon>RepairQualityAndWorkFilter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\WorkCount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\WorkCount.Designer.cs">
+      <DependentUpon>WorkCount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\ServiceQuality.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\ServiceQuality.Designer.cs">
+      <DependentUpon>ServiceQuality.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\ServiceQualityDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\ServiceQualityDetails.Designer.cs">
+      <DependentUpon>ServiceQualityDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\ServiceQualityFilter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\ServiceQualityFilter.Designer.cs">
+      <DependentUpon>ServiceQualityFilter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\InstallWorkCount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\InstallWorkCount.Designer.cs">
+      <DependentUpon>InstallWorkCount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\RepairWorkCountFilter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\RepairWorkCountFilter.Designer.cs">
+      <DependentUpon>RepairWorkCountFilter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\WorkCountQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\WorkCountQuery.Designer.cs">
+      <DependentUpon>WorkCountQuery.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FrmLookUp\FrmLookUp\FrmLookUp.csproj">
+      <Project>{01BB71DB-32EF-4CE1-8816-BFD923E6A073}</Project>
+      <Name>FrmLookUp</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RiLiGlobal\RiLiGlobal.csproj">
+      <Project>{F5D593BA-4C43-4392-8A48-AA79B29DB1FB}</Project>
+      <Name>RiLiGlobal</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Source\BillBase\BillBase\BillBase.csproj">
+      <Project>{A841E4DD-6182-40E6-A880-E466F6DAB7AE}</Project>
+      <Name>BillBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Source\IImportData\Global.csproj">
+      <Project>{CDA22C4E-437E-47C0-887C-8EED17F13A17}</Project>
+      <Name>Global</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Source\Message\Message\Message.csproj">
+      <Project>{79DBF057-614E-426D-A83B-AB1754369FBF}</Project>
+      <Name>Message</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Source\Report\Report\Report.csproj">
+      <Project>{7AB5085C-67DD-4624-95A3-64BC1BF3396B}</Project>
+      <Name>Report</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bill\Bill.resx">
+      <DependentUpon>Bill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bill\BillList.resx">
+      <DependentUpon>BillList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListQuery.resx">
+      <DependentUpon>ListQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepairMission\EndRepairMission.resx">
+      <DependentUpon>EndRepairMission.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Free\FreeApplication.resx">
+      <DependentUpon>FreeApplication.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Free\FreeApplicationList.resx">
+      <DependentUpon>FreeApplicationList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Price\PriceList.resx">
+      <DependentUpon>PriceList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PartsInentory\PartsInentory.resx">
+      <DependentUpon>PartsInentory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PartsApplication\PartsApplicationList.resx">
+      <DependentUpon>PartsApplicationList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FaultFeedback\FaultFeedback.resx">
+      <DependentUpon>FaultFeedback.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FaultFeedback\FaultFeedbackList.resx">
+      <DependentUpon>FaultFeedbackList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PartsApplication\PartsApplication.resx">
+      <DependentUpon>PartsApplication.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PartsInentory\PartsInentoryList.resx">
+      <DependentUpon>PartsInentoryList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Price\Price.resx">
+      <DependentUpon>Price.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepairMission\RepairMission.resx">
+      <DependentUpon>RepairMission.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepairMission\RepairMissionList.resx">
+      <DependentUpon>RepairMissionList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\AmountManagement.resx">
+      <DependentUpon>AmountManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\AmountManagementFilter.resx">
+      <DependentUpon>AmountManagementFilter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\BillDetails.resx">
+      <DependentUpon>BillDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\InstallWorkCountFilter.resx">
+      <DependentUpon>InstallWorkCountFilter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\InvUse.resx">
+      <DependentUpon>InvUse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\InvUserFilter.resx">
+      <DependentUpon>InvUserFilter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\RegionWorkCount.resx">
+      <DependentUpon>RegionWorkCount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\RegionWorkCountFilter.resx">
+      <DependentUpon>RegionWorkCountFilter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\RepairMissionSchedule.resx">
+      <DependentUpon>RepairMissionSchedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\RepairMissionScheduleFilter.resx">
+      <DependentUpon>RepairMissionScheduleFilter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\RepairQualityAndWork.resx">
+      <DependentUpon>RepairQualityAndWork.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\RepairQualityAndWorkFilter.resx">
+      <DependentUpon>RepairQualityAndWorkFilter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\WorkCount.resx">
+      <DependentUpon>WorkCount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\ServiceQuality.resx">
+      <DependentUpon>ServiceQuality.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\ServiceQualityDetails.resx">
+      <DependentUpon>ServiceQualityDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\ServiceQualityFilter.resx">
+      <DependentUpon>ServiceQualityFilter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\InstallWorkCount.resx">
+      <DependentUpon>InstallWorkCount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\RepairWorkCountFilter.resx">
+      <DependentUpon>RepairWorkCountFilter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\WorkCountQuery.resx">
+      <DependentUpon>WorkCountQuery.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

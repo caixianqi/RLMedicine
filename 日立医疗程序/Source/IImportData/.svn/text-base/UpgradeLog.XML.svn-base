@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Global">
+</Property><Property Name="解决方案文件" Value="G:\GlobItem\IImportData\Global.sln">
+</Property><Property Name="Date" Value="2008年9月28日">
+</Property><Property Name="Time" Value="14:48">
+</Property></Properties><Event ErrorLevel="0" Project="Global" Source="Global.csproj" Description="项目文件不需要转换。">
+</Event><Event ErrorLevel="3" Project="Global" Source="Global.csproj" Description="无需转换">
+</Event><Event ErrorLevel="0" Project="" Source="Global.sln" Description="成功转换解决方案">
+</Event><Event ErrorLevel="3" Project="" Source="Global.sln" Description="Converted">
+</Event></UpgradeLog>

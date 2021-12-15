@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/u_framework/!svn/ver/566/branches/ribin/Source/U8dll
+END
+UFBaseLib.pdb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/u_framework/!svn/ver/4/branches/ribin/Source/U8dll/UFBaseLib.pdb
+END
+UFIDA.U8.Portal.Common.dll
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/u_framework/!svn/ver/4/branches/ribin/Source/U8dll/UFIDA.U8.Portal.Common.dll
+END
+UFIDA.U8.Portal.UAPFacade.dll
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/u_framework/!svn/ver/4/branches/ribin/Source/U8dll/UFIDA.U8.Portal.UAPFacade.dll
+END
+UFBaseLib.dll
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/u_framework/!svn/ver/4/branches/ribin/Source/U8dll/UFBaseLib.dll
+END
+Interop.Excel.dll
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/u_framework/!svn/ver/566/branches/ribin/Source/U8dll/Interop.Excel.dll
+END
+UFIDA.U8.Portal.Framework.dll
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/u_framework/!svn/ver/4/branches/ribin/Source/U8dll/UFIDA.U8.Portal.Framework.dll
+END
+UFIDA.U8.Portal.Proxy.dll
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/u_framework/!svn/ver/4/branches/ribin/Source/U8dll/UFIDA.U8.Portal.Proxy.dll
+END
+Interop.U8Login.dll
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/u_framework/!svn/ver/4/branches/ribin/Source/U8dll/Interop.U8Login.dll
+END

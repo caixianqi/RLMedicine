@@ -1,0 +1,360 @@
+﻿namespace FrmLookUp
+{
+    partial class ToolBarBill
+    {
+        /// <summary> 
+        /// 必需的设计器变量。
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary> 
+        /// 清理所有正在使用的资源。
+        /// </summary>
+        /// <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region 组件设计器生成的代码
+
+        /// <summary> 
+        /// 设计器支持所需的方法 - 不要
+        /// 使用代码编辑器修改此方法的内容。
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ToolBarBill));
+            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
+            this.BtnDelLine = new System.Windows.Forms.Button();
+            this.BtnAddLine = new System.Windows.Forms.Button();
+            this.BtnExit = new System.Windows.Forms.Button();
+            this.BtnPrint = new System.Windows.Forms.Button();
+            this.BtnExcel = new System.Windows.Forms.Button();
+            this.BtnAuditList = new System.Windows.Forms.Button();
+            this.BtnCancel = new System.Windows.Forms.Button();
+            this.BtnUnAudit = new System.Windows.Forms.Button();
+            this.BtnAudit = new System.Windows.Forms.Button();
+            this.BtnDelete = new System.Windows.Forms.Button();
+            this.BtnUpCancel = new System.Windows.Forms.Button();
+            this.BtnUpLoad = new System.Windows.Forms.Button();
+            this.BtnSave = new System.Windows.Forms.Button();
+            this.BtnBringBarCode = new System.Windows.Forms.Button();
+            this.BtnUpdate = new System.Windows.Forms.Button();
+            this.BtnNew = new System.Windows.Forms.Button();
+            this.baoBtnSelect = new FrmLookUp.BaoButton();
+            this.SuspendLayout();
+            // 
+            // BtnDelLine
+            // 
+            this.BtnDelLine.Dock = System.Windows.Forms.DockStyle.Left;
+            this.BtnDelLine.Image = global::FrmLookUp.Properties.Resources.deleteline;
+            this.BtnDelLine.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnDelLine.Location = new System.Drawing.Point(646, 0);
+            this.BtnDelLine.Name = "BtnDelLine";
+            this.BtnDelLine.Size = new System.Drawing.Size(55, 22);
+            this.BtnDelLine.TabIndex = 12;
+            this.BtnDelLine.Text = "删行";
+            this.BtnDelLine.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnDelLine.UseVisualStyleBackColor = true;
+            this.BtnDelLine.Click += new System.EventHandler(this.btnDelLine_Click);
+            // 
+            // BtnAddLine
+            // 
+            this.BtnAddLine.Dock = System.Windows.Forms.DockStyle.Left;
+            this.BtnAddLine.Image = global::FrmLookUp.Properties.Resources.addline;
+            this.BtnAddLine.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnAddLine.Location = new System.Drawing.Point(591, 0);
+            this.BtnAddLine.Name = "BtnAddLine";
+            this.BtnAddLine.Size = new System.Drawing.Size(55, 22);
+            this.BtnAddLine.TabIndex = 11;
+            this.BtnAddLine.Text = "增行";
+            this.BtnAddLine.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnAddLine.UseVisualStyleBackColor = true;
+            this.BtnAddLine.Click += new System.EventHandler(this.btnAddLine_Click);
+            // 
+            // BtnExit
+            // 
+            this.BtnExit.Dock = System.Windows.Forms.DockStyle.Left;
+            this.BtnExit.Image = global::FrmLookUp.Properties.Resources.close1;
+            this.BtnExit.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnExit.Location = new System.Drawing.Point(921, 0);
+            this.BtnExit.Margin = new System.Windows.Forms.Padding(2);
+            this.BtnExit.Name = "BtnExit";
+            this.BtnExit.Size = new System.Drawing.Size(52, 22);
+            this.BtnExit.TabIndex = 16;
+            this.BtnExit.Text = "退出";
+            this.BtnExit.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnExit.UseVisualStyleBackColor = true;
+            this.BtnExit.Click += new System.EventHandler(this.BtnExit_Click);
+            // 
+            // BtnPrint
+            // 
+            this.BtnPrint.Dock = System.Windows.Forms.DockStyle.Left;
+            this.BtnPrint.Image = global::FrmLookUp.Properties.Resources.printer;
+            this.BtnPrint.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnPrint.Location = new System.Drawing.Point(701, 0);
+            this.BtnPrint.Margin = new System.Windows.Forms.Padding(2);
+            this.BtnPrint.Name = "BtnPrint";
+            this.BtnPrint.Size = new System.Drawing.Size(52, 22);
+            this.BtnPrint.TabIndex = 15;
+            this.BtnPrint.Text = "打印";
+            this.BtnPrint.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnPrint.UseVisualStyleBackColor = true;
+            this.BtnPrint.Click += new System.EventHandler(this.BtnPrint_Click);
+            // 
+            // BtnExcel
+            // 
+            this.BtnExcel.Dock = System.Windows.Forms.DockStyle.Left;
+            this.BtnExcel.Image = global::FrmLookUp.Properties.Resources.bill;
+            this.BtnExcel.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnExcel.Location = new System.Drawing.Point(753, 0);
+            this.BtnExcel.Margin = new System.Windows.Forms.Padding(2);
+            this.BtnExcel.Name = "BtnExcel";
+            this.BtnExcel.Size = new System.Drawing.Size(82, 22);
+            this.BtnExcel.TabIndex = 14;
+            this.BtnExcel.Text = "导出Excel";
+            this.BtnExcel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnExcel.UseVisualStyleBackColor = true;
+            this.BtnExcel.Click += new System.EventHandler(this.BtnExcel_Click);
+            // 
+            // BtnAuditList
+            // 
+            this.BtnAuditList.Dock = System.Windows.Forms.DockStyle.Left;
+            this.BtnAuditList.Image = global::FrmLookUp.Properties.Resources._4_9;
+            this.BtnAuditList.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnAuditList.Location = new System.Drawing.Point(835, 0);
+            this.BtnAuditList.Margin = new System.Windows.Forms.Padding(2);
+            this.BtnAuditList.Name = "BtnAuditList";
+            this.BtnAuditList.Size = new System.Drawing.Size(86, 22);
+            this.BtnAuditList.TabIndex = 13;
+            this.BtnAuditList.Text = "审核列表";
+            this.BtnAuditList.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnAuditList.UseVisualStyleBackColor = true;
+            this.BtnAuditList.Click += new System.EventHandler(this.BtnAuditList_Click);
+            // 
+            // BtnCancel
+            // 
+            this.BtnCancel.Dock = System.Windows.Forms.DockStyle.Left;
+            this.BtnCancel.Image = global::FrmLookUp.Properties.Resources.Cancel;
+            this.BtnCancel.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnCancel.Location = new System.Drawing.Point(541, 0);
+            this.BtnCancel.Margin = new System.Windows.Forms.Padding(2);
+            this.BtnCancel.Name = "BtnCancel";
+            this.BtnCancel.Size = new System.Drawing.Size(50, 22);
+            this.BtnCancel.TabIndex = 10;
+            this.BtnCancel.Text = "撤销";
+            this.BtnCancel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnCancel.UseVisualStyleBackColor = true;
+            this.BtnCancel.Click += new System.EventHandler(this.BtnCancel_Click);
+            // 
+            // BtnUnAudit
+            // 
+            this.BtnUnAudit.Dock = System.Windows.Forms.DockStyle.Left;
+            this.BtnUnAudit.Image = global::FrmLookUp.Properties.Resources.delete_obj;
+            this.BtnUnAudit.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnUnAudit.Location = new System.Drawing.Point(489, 0);
+            this.BtnUnAudit.Margin = new System.Windows.Forms.Padding(2);
+            this.BtnUnAudit.Name = "BtnUnAudit";
+            this.BtnUnAudit.Size = new System.Drawing.Size(52, 22);
+            this.BtnUnAudit.TabIndex = 9;
+            this.BtnUnAudit.Text = "弃审";
+            this.BtnUnAudit.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnUnAudit.UseVisualStyleBackColor = true;
+            this.BtnUnAudit.Click += new System.EventHandler(this.BtnUnAudit_Click);
+            // 
+            // BtnAudit
+            // 
+            this.BtnAudit.Dock = System.Windows.Forms.DockStyle.Left;
+            this.BtnAudit.Image = global::FrmLookUp.Properties.Resources.audit;
+            this.BtnAudit.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnAudit.Location = new System.Drawing.Point(436, 0);
+            this.BtnAudit.Margin = new System.Windows.Forms.Padding(2);
+            this.BtnAudit.Name = "BtnAudit";
+            this.BtnAudit.Size = new System.Drawing.Size(53, 22);
+            this.BtnAudit.TabIndex = 8;
+            this.BtnAudit.Text = "审核";
+            this.BtnAudit.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnAudit.UseVisualStyleBackColor = true;
+            this.BtnAudit.Click += new System.EventHandler(this.BtnAudit_Click);
+            // 
+            // BtnDelete
+            // 
+            this.BtnDelete.Dock = System.Windows.Forms.DockStyle.Left;
+            this.BtnDelete.Image = global::FrmLookUp.Properties.Resources.Delete;
+            this.BtnDelete.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnDelete.Location = new System.Drawing.Point(386, 0);
+            this.BtnDelete.Margin = new System.Windows.Forms.Padding(2);
+            this.BtnDelete.Name = "BtnDelete";
+            this.BtnDelete.Size = new System.Drawing.Size(50, 22);
+            this.BtnDelete.TabIndex = 7;
+            this.BtnDelete.Text = "删除";
+            this.BtnDelete.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnDelete.UseVisualStyleBackColor = true;
+            this.BtnDelete.Click += new System.EventHandler(this.BtnDelete_Click);
+            // 
+            // BtnUpCancel
+            // 
+            this.BtnUpCancel.Dock = System.Windows.Forms.DockStyle.Left;
+            this.BtnUpCancel.Image = ((System.Drawing.Image)(resources.GetObject("BtnUpCancel.Image")));
+            this.BtnUpCancel.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnUpCancel.Location = new System.Drawing.Point(325, 0);
+            this.BtnUpCancel.Margin = new System.Windows.Forms.Padding(2);
+            this.BtnUpCancel.Name = "BtnUpCancel";
+            this.BtnUpCancel.Size = new System.Drawing.Size(61, 22);
+            this.BtnUpCancel.TabIndex = 6;
+            this.BtnUpCancel.Text = "收回";
+            this.BtnUpCancel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnUpCancel.UseVisualStyleBackColor = true;
+            this.BtnUpCancel.Click += new System.EventHandler(this.BtnUpCancel_Click);
+            // 
+            // BtnUpLoad
+            // 
+            this.BtnUpLoad.Dock = System.Windows.Forms.DockStyle.Left;
+            this.BtnUpLoad.Image = ((System.Drawing.Image)(resources.GetObject("BtnUpLoad.Image")));
+            this.BtnUpLoad.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnUpLoad.Location = new System.Drawing.Point(271, 0);
+            this.BtnUpLoad.Margin = new System.Windows.Forms.Padding(2);
+            this.BtnUpLoad.Name = "BtnUpLoad";
+            this.BtnUpLoad.Size = new System.Drawing.Size(54, 22);
+            this.BtnUpLoad.TabIndex = 5;
+            this.BtnUpLoad.Text = "提交";
+            this.BtnUpLoad.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnUpLoad.UseVisualStyleBackColor = true;
+            this.BtnUpLoad.Click += new System.EventHandler(this.BtnUpLoad_Click);
+            // 
+            // BtnSave
+            // 
+            this.BtnSave.Dock = System.Windows.Forms.DockStyle.Left;
+            this.BtnSave.Image = global::FrmLookUp.Properties.Resources.save_as;
+            this.BtnSave.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnSave.Location = new System.Drawing.Point(219, 0);
+            this.BtnSave.Margin = new System.Windows.Forms.Padding(2);
+            this.BtnSave.Name = "BtnSave";
+            this.BtnSave.Size = new System.Drawing.Size(52, 22);
+            this.BtnSave.TabIndex = 4;
+            this.BtnSave.Text = "保存";
+            this.BtnSave.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnSave.UseVisualStyleBackColor = true;
+            this.BtnSave.Click += new System.EventHandler(this.BtnSave_Click);
+            // 
+            // BtnBringBarCode
+            // 
+            this.BtnBringBarCode.Dock = System.Windows.Forms.DockStyle.Left;
+            this.BtnBringBarCode.Image = global::FrmLookUp.Properties.Resources.insert_tail;
+            this.BtnBringBarCode.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnBringBarCode.Location = new System.Drawing.Point(141, 0);
+            this.BtnBringBarCode.Margin = new System.Windows.Forms.Padding(2);
+            this.BtnBringBarCode.Name = "BtnBringBarCode";
+            this.BtnBringBarCode.Size = new System.Drawing.Size(78, 22);
+            this.BtnBringBarCode.TabIndex = 3;
+            this.BtnBringBarCode.Text = "产生条码";
+            this.BtnBringBarCode.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnBringBarCode.UseVisualStyleBackColor = true;
+            this.BtnBringBarCode.Click += new System.EventHandler(this.BtnBringBarCode_Click);
+            // 
+            // BtnUpdate
+            // 
+            this.BtnUpdate.Dock = System.Windows.Forms.DockStyle.Left;
+            this.BtnUpdate.Image = global::FrmLookUp.Properties.Resources.Approve_all;
+            this.BtnUpdate.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnUpdate.Location = new System.Drawing.Point(89, 0);
+            this.BtnUpdate.Margin = new System.Windows.Forms.Padding(2);
+            this.BtnUpdate.Name = "BtnUpdate";
+            this.BtnUpdate.Size = new System.Drawing.Size(52, 22);
+            this.BtnUpdate.TabIndex = 2;
+            this.BtnUpdate.Text = "修改";
+            this.BtnUpdate.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnUpdate.UseVisualStyleBackColor = true;
+            this.BtnUpdate.Click += new System.EventHandler(this.BtnUpdate_Click);
+            // 
+            // BtnNew
+            // 
+            this.BtnNew.Dock = System.Windows.Forms.DockStyle.Left;
+            this.BtnNew.Image = global::FrmLookUp.Properties.Resources.add_obj;
+            this.BtnNew.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnNew.Location = new System.Drawing.Point(38, 0);
+            this.BtnNew.Margin = new System.Windows.Forms.Padding(2);
+            this.BtnNew.Name = "BtnNew";
+            this.BtnNew.Size = new System.Drawing.Size(51, 22);
+            this.BtnNew.TabIndex = 1;
+            this.BtnNew.Text = "新增";
+            this.BtnNew.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnNew.UseVisualStyleBackColor = true;
+            this.BtnNew.Click += new System.EventHandler(this.BtnNew_Click);
+            // 
+            // baoBtnSelect
+            // 
+            this.baoBtnSelect.BaoBtnCaption = "选择";
+            this.baoBtnSelect.BaoClickClose = false;
+            this.baoBtnSelect.BaoColumnsWidth = null;
+            this.baoBtnSelect.BaoDataAccDLLFullPath = "";
+            this.baoBtnSelect.BaoFullClassName = "";
+            this.baoBtnSelect.BaoSQL = "";
+            this.baoBtnSelect.BaoTitleNames = null;
+            this.baoBtnSelect.Dock = System.Windows.Forms.DockStyle.Left;
+            this.baoBtnSelect.Location = new System.Drawing.Point(0, 0);
+            this.baoBtnSelect.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.baoBtnSelect.Name = "baoBtnSelect";
+            this.baoBtnSelect.Size = new System.Drawing.Size(38, 22);
+            this.baoBtnSelect.TabIndex = 0;
+            this.baoBtnSelect.OnLookUpClosed += new FrmLookUp.BaoButton.LookUpClosed(this.baoBtnSelect_OnLookUpClosed);
+            // 
+            // ToolBarBill
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Controls.Add(this.BtnExit);
+            this.Controls.Add(this.BtnAuditList);
+            this.Controls.Add(this.BtnExcel);
+            this.Controls.Add(this.BtnPrint);
+            this.Controls.Add(this.BtnDelLine);
+            this.Controls.Add(this.BtnAddLine);
+            this.Controls.Add(this.BtnCancel);
+            this.Controls.Add(this.BtnUnAudit);
+            this.Controls.Add(this.BtnAudit);
+            this.Controls.Add(this.BtnDelete);
+            this.Controls.Add(this.BtnUpCancel);
+            this.Controls.Add(this.BtnUpLoad);
+            this.Controls.Add(this.BtnSave);
+            this.Controls.Add(this.BtnBringBarCode);
+            this.Controls.Add(this.BtnUpdate);
+            this.Controls.Add(this.BtnNew);
+            this.Controls.Add(this.baoBtnSelect);
+            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Name = "ToolBarBill";
+            this.Size = new System.Drawing.Size(974, 22);
+            this.Load += new System.EventHandler(this.ToolBarBill_Load);
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        public BaoButton baoBtnSelect;
+        public System.Windows.Forms.Button BtnNew;
+        public System.Windows.Forms.Button BtnUpdate;
+        public System.Windows.Forms.Button BtnSave;
+        public System.Windows.Forms.Button BtnAudit;
+        public System.Windows.Forms.Button BtnPrint;
+        public System.Windows.Forms.Button BtnExit;
+        public System.Windows.Forms.Button BtnExcel;
+        public System.Windows.Forms.Button BtnDelete;
+        private System.Windows.Forms.SaveFileDialog saveFileDialog1;
+        public System.Windows.Forms.Button BtnCancel;
+        public System.Windows.Forms.Button BtnUnAudit;
+        public System.Windows.Forms.Button BtnUpLoad;
+        public System.Windows.Forms.Button BtnUpCancel;
+		public System.Windows.Forms.Button BtnBringBarCode;
+        public System.Windows.Forms.Button BtnAuditList;
+        public System.Windows.Forms.Button BtnAddLine;
+        public System.Windows.Forms.Button BtnDelLine;
+
+
+    }
+}

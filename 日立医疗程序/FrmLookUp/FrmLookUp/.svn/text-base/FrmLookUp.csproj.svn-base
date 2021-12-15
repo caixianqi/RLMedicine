@@ -1,0 +1,232 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{01BB71DB-32EF-4CE1-8816-BFD923E6A073}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FrmLookUp</RootNamespace>
+    <AssemblyName>FrmLookUp</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRules>
+    </CodeAnalysisRules>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v7.1, Version=7.1.1.0, Culture=neutral, PublicKeyToken=8de1562349429be3" />
+    <Reference Include="DevExpress.Utils.v7.1, Version=7.1.1.0, Culture=neutral, PublicKeyToken=8de1562349429be3" />
+    <Reference Include="DevExpress.XtraEditors.v7.1, Version=7.1.1.0, Culture=neutral, PublicKeyToken=8de1562349429be3" />
+    <Reference Include="DevExpress.XtraGrid.v7.1, Version=7.1.1.0, Culture=neutral, PublicKeyToken=8de1562349429be3" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BillUpDateState.cs" />
+    <Compile Include="frmColumnFilter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmColumnFilter.Designer.cs">
+      <DependentUpon>frmColumnFilter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLookUpBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLookUpBase.Designer.cs">
+      <DependentUpon>FrmLookUpBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LookUpEventArgs.cs" />
+    <Compile Include="BaoButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BaoButton.Designer.cs">
+      <DependentUpon>BaoButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ToolBarBill.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ToolBarBill.Designer.cs">
+      <DependentUpon>ToolBarBill.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmColumnFilter.resx">
+      <DependentUpon>frmColumnFilter.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLookUpBase.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmLookUpBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaoButton.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BaoButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolBarBill.resx">
+      <DependentUpon>ToolBarBill.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\DataAcc\DataAccess\DataAccess.csproj">
+      <Project>{65553188-3F9E-4ECA-A189-63C068D54D80}</Project>
+      <Name>DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\IImportData\Global.csproj">
+      <Project>{CDA22C4E-437E-47C0-887C-8EED17F13A17}</Project>
+      <Name>Global</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\XReport\XReport\XReport.csproj">
+      <Project>{4D0C1C35-A536-4882-95D8-020C719A4668}</Project>
+      <Name>XReport</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bill.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4-9.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1-32.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2-4.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undo.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stamp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cut.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\disk1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\proc.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_obj.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Approve all.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save as.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audit.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printer.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cancel.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_obj.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cut1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bring.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\insert_tail.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addline.gif" />
+    <Content Include="Resources\Delete.ico" />
+    <None Include="Resources\deleteline.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

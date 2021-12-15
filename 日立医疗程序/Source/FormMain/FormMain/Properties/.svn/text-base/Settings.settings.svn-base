@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="FormMain.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Timer" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="AuditFlow" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="EmplDllName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ProjectManagement.dll</Value>
+    </Setting>
+    <Setting Name="EmplClassName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ProjectManagement.CUser</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

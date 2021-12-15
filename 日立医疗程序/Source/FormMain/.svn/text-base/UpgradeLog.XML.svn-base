@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="FormMain">
+</Property><Property Name="Solution File" Value="G:\GlobItem\FormMain\FormMain.sln">
+</Property><Property Name="User Options File" Value="G:\GlobItem\FormMain\FormMain.suo">
+</Property><Property Name="Date" Value="2008年7月17日">
+</Property><Property Name="Time" Value="13:31">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="FormMain.sln" Description="File successfully backed up as G:\GlobItem\FormMain\Backup\FormMain.sln">
+</Event><Event ErrorLevel="0" Project="" Source="FormMain.suo" Description="File successfully backed up as G:\GlobItem\FormMain\Backup\FormMain.suo">
+</Event><Event ErrorLevel="0" Project="FormMain" Source="FormMain\FormMain.csproj" Description="Project file successfully backed up as G:\GlobItem\FormMain\Backup\FormMain\FormMain.csproj">
+</Event><Event ErrorLevel="0" Project="FormMain" Source="FormMain\BaseInfo.cs" Description="File successfully backed up as G:\GlobItem\FormMain\Backup\FormMain\BaseInfo.cs">
+</Event><Event ErrorLevel="0" Project="FormMain" Source="FormMain\Bus.cs" Description="File successfully backed up as G:\GlobItem\FormMain\Backup\FormMain\Bus.cs">
+</Event><Event ErrorLevel="0" Project="FormMain" Source="FormMain\DB.cs" Description="File successfully backed up as G:\GlobItem\FormMain\Backup\FormMain\DB.cs">
+</Event><Event ErrorLevel="0" Project="FormMain" Source="FormMain\EntityValidator.cs" Description="File successfully backed up as G:\GlobItem\FormMain\Backup\FormMain\EntityValidator.cs">
+</Event><Event ErrorLevel="0" Project="FormMain" Source="FormMain\FormExampleData.cs" Description="File successfully backed up as G:\GlobItem\FormMain\Backup\FormMain\FormExampleData.cs">
+</Event><Event ErrorLevel="0" Project="FormMain" Source="FormMain\FormExample_Index.cs" Description="File successfully backed up as G:\GlobItem\FormMain\Backup\FormMain\FormExample_Index.cs">
+</Event><Event ErrorLevel="0" Project="FormMain" Source="FormMain\FormExample_SubIndex.cs" Description="File successfully backed up as G:\GlobItem\FormMain\Backup\FormMain\FormExample_SubIndex.cs">
+</Event><Event ErrorLevel="0" Project="FormMain" Source="FormMain\FromMain.cs" Description="File successfully backed up as G:\GlobItem\FormMain\Backup\FormMain\FromMain.cs">
+</Event><Event ErrorLevel="0" Project="FormMain" Source="FormMain\FromMain.Designer.cs" Description="File successfully backed up as G:\GlobItem\FormMain\Backup\FormMain\FromMain.Designer.cs">
+</Event><Event ErrorLevel="0" Project="FormMain" Source="FormMain\IniFile.cs" Description="File successfully backed up as G:\GlobItem\FormMain\Backup\FormMain\IniFile.cs">
+</Event><Event ErrorLevel="0" Project="FormMain" Source="FormMain\Program.cs" Description="File successfully backed up as G:\GlobItem\FormMain\Backup\FormMain\Program.cs">
+</Event><Event ErrorLevel="0" Project="FormMain" Source="FormMain\Properties\AssemblyInfo.cs" Description="File successfully backed up as G:\GlobItem\FormMain\Backup\FormMain\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="FormMain" Source="FormMain\Properties\Resources.Designer.cs" Description="File successfully backed up as G:\GlobItem\FormMain\Backup\FormMain\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="FormMain" Source="FormMain\Properties\Settings.Designer.cs" Description="File successfully backed up as G:\GlobItem\FormMain\Backup\FormMain\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="FormMain" Source="FormMain\Properties\Settings.settings" Description="File successfully backed up as G:\GlobItem\FormMain\Backup\FormMain\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="FormMain" Source="FormMain\FromMain.resx" Description="File successfully backed up as G:\GlobItem\FormMain\Backup\FormMain\FromMain.resx">
+</Event><Event ErrorLevel="0" Project="FormMain" Source="FormMain\Properties\licenses.licx" Description="File successfully backed up as G:\GlobItem\FormMain\Backup\FormMain\Properties\licenses.licx">
+</Event><Event ErrorLevel="0" Project="FormMain" Source="FormMain\Properties\Resources.resx" Description="File successfully backed up as G:\GlobItem\FormMain\Backup\FormMain\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="FormMain" Source="FormMain\FormMain.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="FormMain" Source="FormMain\FormMain.csproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="Global" Source="..\IImportData\Global.csproj" Description="Warning: The project file is being backed up to a relative path that differs from the original solution relative path.  The difference in folder hierarchy may create problems in opening or building the backed up solution and project.">
+</Event><Event ErrorLevel="0" Project="Global" Source="..\IImportData\Global.csproj" Description="Project file successfully backed up as G:\GlobItem\FormMain\Backup\Global\Global.csproj">
+</Event><Event ErrorLevel="0" Project="Global" Source="..\IImportData\Global.csproj.user" Description="Project user file successfully backed up as G:\GlobItem\FormMain\Backup\Global\Global.csproj.user">
+</Event><Event ErrorLevel="0" Project="Global" Source="..\IImportData\ExceptionBao.cs" Description="File successfully backed up as G:\GlobItem\FormMain\Backup\Global\ExceptionBao.cs">
+</Event><Event ErrorLevel="0" Project="Global" Source="..\IImportData\IAnalysis.cs" Description="File successfully backed up as G:\GlobItem\FormMain\Backup\Global\IAnalysis.cs">
+</Event><Event ErrorLevel="0" Project="Global" Source="..\IImportData\DataAcc.cs" Description="File successfully backed up as G:\GlobItem\FormMain\Backup\Global\DataAcc.cs">
+</Event><Event ErrorLevel="0" Project="Global" Source="..\IImportData\IdelegateError.cs" Description="File successfully backed up as G:\GlobItem\FormMain\Backup\Global\IdelegateError.cs">
+</Event><Event ErrorLevel="0" Project="Global" Source="..\IImportData\IniProcess.cs" Description="File successfully backed up as G:\GlobItem\FormMain\Backup\Global\IniProcess.cs">
+</Event><Event ErrorLevel="0" Project="Global" Source="..\IImportData\IAnalysisAndSQL.cs" Description="File successfully backed up as G:\GlobItem\FormMain\Backup\Global\IAnalysisAndSQL.cs">
+</Event><Event ErrorLevel="0" Project="Global" Source="..\IImportData\ITranSactionSQL.cs" Description="File successfully backed up as G:\GlobItem\FormMain\Backup\Global\ITranSactionSQL.cs">
+</Event><Event ErrorLevel="0" Project="Global" Source="..\IImportData\IU8Contral.cs" Description="File successfully backed up as G:\GlobItem\FormMain\Backup\Global\IU8Contral.cs">
+</Event><Event ErrorLevel="0" Project="Global" Source="..\IImportData\Properties\AssemblyInfo.cs" Description="File successfully backed up as G:\GlobItem\FormMain\Backup\Global\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Global" Source="..\IImportData\ClassDiagram1.cd" Description="File successfully backed up as G:\GlobItem\FormMain\Backup\Global\ClassDiagram1.cd">
+</Event><Event ErrorLevel="0" Project="Global" Source="..\IImportData\Global.csproj" Description="The project file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="Global" Source="..\IImportData\Global.csproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="" Source="FormMain.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="FormMain.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="FormMain" Source="FormMain\FormMain.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

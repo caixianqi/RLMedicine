@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/u_framework/!svn/ver/4/branches/ribin/Source/UserAuth/UserAuth
+END
+UserAuth.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/u_framework/!svn/ver/4/branches/ribin/Source/UserAuth/UserAuth/UserAuth.csproj
+END
+FrmUser.resx
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/u_framework/!svn/ver/4/branches/ribin/Source/UserAuth/UserAuth/FrmUser.resx
+END
+FrmAuthorization.resx
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/u_framework/!svn/ver/4/branches/ribin/Source/UserAuth/UserAuth/FrmAuthorization.resx
+END
+FrmUser.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/u_framework/!svn/ver/4/branches/ribin/Source/UserAuth/UserAuth/FrmUser.designer.cs
+END
+FrmUser.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/u_framework/!svn/ver/4/branches/ribin/Source/UserAuth/UserAuth/FrmUser.cs
+END
+FrmAuthorization.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/u_framework/!svn/ver/4/branches/ribin/Source/UserAuth/UserAuth/FrmAuthorization.designer.cs
+END
+FrmAuthorization.cs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/u_framework/!svn/ver/4/branches/ribin/Source/UserAuth/UserAuth/FrmAuthorization.cs
+END

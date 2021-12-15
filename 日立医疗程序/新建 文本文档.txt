@@ -1,0 +1,14 @@
+  //Lin 2019_10_23 按客户要求，新增编码：A100045也是主机
+
+
+
+ //Lin 2020_07_14 新售后系统主机规则要求
+//1】A11,A21,F11,F8101,F8201,G11,G8101,H11,H21,J81,J82
+//2】 B1012015,B1012016,B1012003
+
+   Maintypetask_tb.BaoSQL = @"select cInvCode,cinvdefine7 as cInvAddCode,cInvName,cInvStd from " + U8DataBaseName + @".Inventory 
+	                                where ( cinvcode like 'A11%' or cinvcode like 'A21%' or cinvcode like 'F11%' or cinvcode like 'F8101%' or cinvcode like 'F8201%' or cinvcode like 'G11%' or cinvcode like 'G8101%' or cinvcode like 'H11%' or cinvcode like 'H21%' or cinvcode like 'J81%'  or cinvcode like 'J82%' or cinvcode='B1012015' or cinvcode='B1012016' or cinvcode='B1012003')";
+
+
+
+  DataRow[] drs = DTInsaccessory.Select("(aAccCode like 'A11%' or aAccCode like 'A21%' or aAccCode like 'F11%' or aAccCode like 'F8101%' or aAccCode like 'F8201%' or aAccCode like 'G11%' or aAccCode like 'G8101%' or aAccCode like 'H11%' or aAccCode like 'H21%' or aAccCode like 'J81%'  or aAccCode like 'J82%' or aAccCode='B1012015' or aAccCode='B1012016' or aAccCode='B1012003')");

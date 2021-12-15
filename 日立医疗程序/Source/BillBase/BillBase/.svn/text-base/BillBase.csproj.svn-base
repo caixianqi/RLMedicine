@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A841E4DD-6182-40E6-A880-E466F6DAB7AE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BillBase</RootNamespace>
+    <AssemblyName>BillBase</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v7.1, Version=7.1.1.0, Culture=neutral, PublicKeyToken=8de1562349429be3" />
+    <Reference Include="DevExpress.Utils.v7.1, Version=7.1.1.0, Culture=neutral, PublicKeyToken=8de1562349429be3" />
+    <Reference Include="DevExpress.XtraEditors.v7.1, Version=7.1.1.0, Culture=neutral, PublicKeyToken=8de1562349429be3" />
+    <Reference Include="DevExpress.XtraGrid.v7.1, Version=7.1.1.0, Culture=neutral, PublicKeyToken=8de1562349429be3" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UFBaseLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\U8dll\UFBaseLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Auditing\AuditBillFlowManager.cs" />
+    <Compile Include="Auditing\AuditBillFlowUserSetManager.cs" />
+    <Compile Include="Auditing\AuditBillManager.cs" />
+    <Compile Include="Auditing\AuditFlowSearchManager.cs" />
+    <Compile Include="Auditing\AuditManager.cs" />
+    <Compile Include="Auditing\FrmBillAudit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Auditing\FrmBillAudit.Designer.cs">
+      <DependentUpon>FrmBillAudit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Auditing\FrmBillAuditFlowInput.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Auditing\FrmBillAuditFlowInput.Designer.cs">
+      <DependentUpon>FrmBillAuditFlowInput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Auditing\FrmBillAuditFlowSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Auditing\FrmBillAuditFlowSearch.Designer.cs">
+      <DependentUpon>FrmBillAuditFlowSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Auditing\FrmBillAuditFlowSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Auditing\FrmBillAuditFlowSet.Designer.cs">
+      <DependentUpon>FrmBillAuditFlowSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Auditing\FrmBillAuditFlowUserInput.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Auditing\FrmBillAuditFlowUserInput.Designer.cs">
+      <DependentUpon>FrmBillAuditFlowUserInput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Auditing\FrmBillAuditFlowUserSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Auditing\FrmBillAuditFlowUserSet.Designer.cs">
+      <DependentUpon>FrmBillAuditFlowUserSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BillBase.cs" />
+    <Compile Include="CommonMethod.cs" />
+    <Compile Include="EntityTable.cs">
+    </Compile>
+    <Compile Include="EntityTableItem.cs" />
+    <Compile Include="EntityTableMain.cs" />
+    <Compile Include="Frmbasis.cs">
+    </Compile>
+    <Compile Include="Frmbasis.Designer.cs">
+      <DependentUpon>Frmbasis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBillBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBillBase.Designer.cs">
+      <DependentUpon>FrmBillBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IChildClose.cs" />
+    <Compile Include="IChildForm.cs" />
+    <Compile Include="ICode.cs" />
+    <Compile Include="IDataModel.cs" />
+    <Compile Include="JFWUserSet\FrmFlowShow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JFWUserSet\FrmFlowShow.Designer.cs">
+      <DependentUpon>FrmFlowShow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JFWUserSet\FrmFlowUserSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JFWUserSet\FrmFlowUserSet.Designer.cs">
+      <DependentUpon>FrmFlowUserSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JFWUserSet\FrmFlowUserSetInput.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JFWUserSet\FrmFlowUserSetInput.Designer.cs">
+      <DependentUpon>FrmFlowUserSetInput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LookUpBasis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LookUpBasis.Designer.cs">
+      <DependentUpon>LookUpBasis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Auditing\FrmBillAudit.resx">
+      <DependentUpon>FrmBillAudit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Auditing\FrmBillAuditFlowInput.resx">
+      <DependentUpon>FrmBillAuditFlowInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Auditing\FrmBillAuditFlowSearch.resx">
+      <DependentUpon>FrmBillAuditFlowSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Auditing\FrmBillAuditFlowSet.resx">
+      <DependentUpon>FrmBillAuditFlowSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Auditing\FrmBillAuditFlowUserInput.resx">
+      <DependentUpon>FrmBillAuditFlowUserInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Auditing\FrmBillAuditFlowUserSet.resx">
+      <DependentUpon>FrmBillAuditFlowUserSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmbasis.resx">
+      <DependentUpon>Frmbasis.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBillBase.resx">
+      <DependentUpon>FrmBillBase.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JFWUserSet\FrmFlowShow.resx">
+      <DependentUpon>FrmFlowShow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JFWUserSet\FrmFlowUserSet.resx">
+      <DependentUpon>FrmFlowUserSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JFWUserSet\FrmFlowUserSetInput.resx">
+      <DependentUpon>FrmFlowUserSetInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LookUpBasis.resx">
+      <DependentUpon>LookUpBasis.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\FrmLookUp\FrmLookUp\FrmLookUp.csproj">
+      <Project>{01BB71DB-32EF-4CE1-8816-BFD923E6A073}</Project>
+      <Name>FrmLookUp</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\IImportData\Global.csproj">
+      <Project>{CDA22C4E-437E-47C0-887C-8EED17F13A17}</Project>
+      <Name>Global</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Message\Message\Message.csproj">
+      <Project>{79DBF057-614E-426D-A83B-AB1754369FBF}</Project>
+      <Name>Message</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Report\Report\Report.csproj">
+      <Project>{7AB5085C-67DD-4624-95A3-64BC1BF3396B}</Project>
+      <Name>Report</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Audit\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

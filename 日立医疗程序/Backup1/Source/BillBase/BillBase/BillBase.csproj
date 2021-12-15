@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A841E4DD-6182-40E6-A880-E466F6DAB7AE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BillBase</RootNamespace>
+    <AssemblyName>BillBase</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\BillBase.XML</DocumentationFile>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>bin\Debug\BillBase.XML</DocumentationFile>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v7.1, Version=7.1.1.0, Culture=neutral, PublicKeyToken=8de1562349429be3" />
+    <Reference Include="DevExpress.Utils.v7.1, Version=7.1.1.0, Culture=neutral, PublicKeyToken=8de1562349429be3" />
+    <Reference Include="DevExpress.XtraEditors.v7.1, Version=7.1.1.0, Culture=neutral, PublicKeyToken=8de1562349429be3" />
+    <Reference Include="DevExpress.XtraGrid.v7.1, Version=7.1.1.0, Culture=neutral, PublicKeyToken=8de1562349429be3" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UFBaseLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\U8dll\UFBaseLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Auditing\AuditBillFace.cs" />
+    <Compile Include="Auditing\AuditBillFlowManager.cs" />
+    <Compile Include="Auditing\AuditBillFlowUserSetManager.cs" />
+    <Compile Include="Auditing\AuditBillManager.cs" />
+    <Compile Include="Auditing\AuditFlowSearchManager.cs" />
+    <Compile Include="Auditing\AuditManager.cs" />
+    <Compile Include="Auditing\FrmAuditGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Auditing\FrmAuditGroup.Designer.cs">
+      <DependentUpon>FrmAuditGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Auditing\FrmAuditList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Auditing\FrmAuditList.Designer.cs">
+      <DependentUpon>FrmAuditList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Auditing\FrmBillAudit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Auditing\FrmBillAudit.Designer.cs">
+      <DependentUpon>FrmBillAudit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Auditing\FrmBillAuditFlowInput.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Auditing\FrmBillAuditFlowInput.Designer.cs">
+      <DependentUpon>FrmBillAuditFlowInput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Auditing\FrmBillAuditFlowSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Auditing\FrmBillAuditFlowSearch.Designer.cs">
+      <DependentUpon>FrmBillAuditFlowSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Auditing\FrmBillAuditFlowSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Auditing\FrmBillAuditFlowSet.Designer.cs">
+      <DependentUpon>FrmBillAuditFlowSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Auditing\FrmBillAuditFlowUserInput.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Auditing\FrmBillAuditFlowUserInput.Designer.cs">
+      <DependentUpon>FrmBillAuditFlowUserInput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Auditing\FrmBillAuditFlowUserSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Auditing\FrmBillAuditFlowUserSet.Designer.cs">
+      <DependentUpon>FrmBillAuditFlowUserSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Auditing\FrmJFWAuditFlowSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Auditing\FrmJFWAuditFlowSet.Designer.cs">
+      <DependentUpon>FrmJFWAuditFlowSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Auditing\IAuditFlowSet.cs" />
+    <Compile Include="Auditing\IAuditFrm.cs" />
+    <Compile Include="AuthUser\AuthorizationUser.cs" />
+    <Compile Include="BillBase.cs" />
+    <Compile Include="BillTemplate\TemplateBill.cs" />
+    <Compile Include="BillTemplate\TemplateFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BillTemplate\TemplateFrm.Designer.cs">
+      <DependentUpon>TemplateFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BillTemplate\TemplateTableMain.cs" />
+    <Compile Include="BillTemplate\TemplateTableItem.cs" />
+    <Compile Include="CommonMethod.cs" />
+    <Compile Include="EntityTable.cs">
+    </Compile>
+    <Compile Include="EntityTableItem.cs" />
+    <Compile Include="EntityTableMain.cs" />
+    <Compile Include="Frmbasis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmbasis.Designer.cs">
+      <DependentUpon>Frmbasis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBillBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBillBase.Designer.cs">
+      <DependentUpon>FrmBillBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IChildClose.cs" />
+    <Compile Include="IChildForm.cs" />
+    <Compile Include="ICode.cs" />
+    <Compile Include="IDataModel.cs" />
+    <Compile Include="JFWUserSet\FrmFlowShow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JFWUserSet\FrmFlowShow.Designer.cs">
+      <DependentUpon>FrmFlowShow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JFWUserSet\FrmFlowUserSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JFWUserSet\FrmFlowUserSet.Designer.cs">
+      <DependentUpon>FrmFlowUserSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JFWUserSet\FrmFlowUserSetInput.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JFWUserSet\FrmFlowUserSetInput.Designer.cs">
+      <DependentUpon>FrmFlowUserSetInput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LookUpBasis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LookUpBasis.Designer.cs">
+      <DependentUpon>LookUpBasis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Auditing\FrmAuditGroup.resx">
+      <DependentUpon>FrmAuditGroup.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Auditing\FrmAuditList.resx">
+      <DependentUpon>FrmAuditList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Auditing\FrmBillAudit.resx">
+      <DependentUpon>FrmBillAudit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Auditing\FrmBillAuditFlowInput.resx">
+      <DependentUpon>FrmBillAuditFlowInput.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Auditing\FrmBillAuditFlowSearch.resx">
+      <DependentUpon>FrmBillAuditFlowSearch.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Auditing\FrmBillAuditFlowSet.resx">
+      <DependentUpon>FrmBillAuditFlowSet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Auditing\FrmBillAuditFlowUserInput.resx">
+      <DependentUpon>FrmBillAuditFlowUserInput.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Auditing\FrmBillAuditFlowUserSet.resx">
+      <DependentUpon>FrmBillAuditFlowUserSet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Auditing\FrmJFWAuditFlowSet.resx">
+      <DependentUpon>FrmJFWAuditFlowSet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BillTemplate\TemplateFrm.resx">
+      <DependentUpon>TemplateFrm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmbasis.resx">
+      <DependentUpon>Frmbasis.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBillBase.resx">
+      <DependentUpon>FrmBillBase.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JFWUserSet\FrmFlowShow.resx">
+      <DependentUpon>FrmFlowShow.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JFWUserSet\FrmFlowUserSet.resx">
+      <DependentUpon>FrmFlowUserSet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JFWUserSet\FrmFlowUserSetInput.resx">
+      <DependentUpon>FrmFlowUserSetInput.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LookUpBasis.resx">
+      <DependentUpon>LookUpBasis.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\FrmLookUp\FrmLookUp\FrmLookUp.csproj">
+      <Project>{01BB71DB-32EF-4CE1-8816-BFD923E6A073}</Project>
+      <Name>FrmLookUp</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\RiLiGlobal\RiLiGlobal.csproj">
+      <Project>{F5D593BA-4C43-4392-8A48-AA79B29DB1FB}</Project>
+      <Name>RiLiGlobal</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\IImportData\Global.csproj">
+      <Project>{CDA22C4E-437E-47C0-887C-8EED17F13A17}</Project>
+      <Name>Global</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Message\Message\Message.csproj">
+      <Project>{79DBF057-614E-426D-A83B-AB1754369FBF}</Project>
+      <Name>Message</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Report\Report\Report.csproj">
+      <Project>{7AB5085C-67DD-4624-95A3-64BC1BF3396B}</Project>
+      <Name>Report</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BBCF10B4-90DF-413D-B8E6-AA14BF714D9F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Install</RootNamespace>
+    <AssemblyName>Install</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Source\FormMain\FormMain\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="C1.Common, Version=1.0.20031.116, Culture=neutral, PublicKeyToken=e272bb32d11b1948">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLLNet\C1.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1FlexGrid, Version=2.1.20031.104, Culture=neutral, PublicKeyToken=c9c7ad9c0a5706c9">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLLNet\C1.Win.C1FlexGrid.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v7.1, Version=7.1.1.0, Culture=neutral, PublicKeyToken=8de1562349429be3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevExpress.Data.v7.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v7.1, Version=7.1.1.0, Culture=neutral, PublicKeyToken=8de1562349429be3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevExpress.Utils.v7.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v7.1, Version=7.1.1.0, Culture=neutral, PublicKeyToken=8de1562349429be3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevExpress.XtraEditors.v7.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v7.1, Version=7.1.1.0, Culture=neutral, PublicKeyToken=8de1562349429be3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevExpress.XtraGrid.v7.1.dll</HintPath>
+    </Reference>
+    <Reference Include="HJ.Data, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLLNet\HJ.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UFBaseLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\U8dll\UFBaseLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FJupload.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FJupload.Designer.cs">
+      <DependentUpon>FJupload.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListQuery.Designer.cs">
+      <DependentUpon>ListQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="InstallLoadFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InstallLoadFile.Designer.cs">
+      <DependentUpon>InstallLoadFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RPInstallALL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RPInstallALL.Designer.cs">
+      <DependentUpon>RPInstallALL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RPInstallImport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RPInstallImport.Designer.cs">
+      <DependentUpon>RPInstallImport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RPTinsinformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RPTinsinformation.Designer.cs">
+      <DependentUpon>RPTinsinformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RPTRegiontask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RPTRegiontask.Designer.cs">
+      <DependentUpon>RPTRegiontask.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RPTInsProcess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RPTInsProcess.Designer.cs">
+      <DependentUpon>RPTInsProcess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RPTRegiontaskContion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RPTRegiontaskContion.Designer.cs">
+      <DependentUpon>RPTRegiontaskContion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RPTsearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RPTsearch.Designer.cs">
+      <DependentUpon>RPTsearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserControl1.Designer.cs">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="副本 RPTinsinformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="副本 RPTinsinformation.Designer.cs">
+      <DependentUpon>副本 RPTinsinformation.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FJupload.resx">
+      <DependentUpon>FJupload.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListQuery.resx">
+      <DependentUpon>ListQuery.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InstallLoadFile.resx">
+      <DependentUpon>InstallLoadFile.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPInstallALL.resx">
+      <DependentUpon>RPInstallALL.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPInstallImport.resx">
+      <DependentUpon>RPInstallImport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPTinsinformation.resx">
+      <DependentUpon>RPTinsinformation.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPTInsProcess.resx">
+      <DependentUpon>RPTInsProcess.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPTRegiontask.resx">
+      <DependentUpon>RPTRegiontask.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPTRegiontaskContion.resx">
+      <DependentUpon>RPTRegiontaskContion.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPTsearch.resx">
+      <DependentUpon>RPTsearch.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl1.resx">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="副本 RPTinsinformation.resx">
+      <DependentUpon>副本 RPTinsinformation.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{F6F6243C-0517-4976-B7A3-6BBF0DE3EDEE}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FrmLookUp\FrmLookUp\FrmLookUp.csproj">
+      <Project>{01BB71DB-32EF-4CE1-8816-BFD923E6A073}</Project>
+      <Name>FrmLookUp</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RiLiGlobal\RiLiGlobal.csproj">
+      <Project>{F5D593BA-4C43-4392-8A48-AA79B29DB1FB}</Project>
+      <Name>RiLiGlobal</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Source\BillBase\BillBase\BillBase.csproj">
+      <Project>{A841E4DD-6182-40E6-A880-E466F6DAB7AE}</Project>
+      <Name>BillBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Source\IImportData\Global.csproj">
+      <Project>{CDA22C4E-437E-47C0-887C-8EED17F13A17}</Project>
+      <Name>Global</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Source\Message\Message\Message.csproj">
+      <Project>{79DBF057-614E-426D-A83B-AB1754369FBF}</Project>
+      <Name>Message</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\U8Global\U8Global.csproj">
+      <Project>{6BACBAED-0477-4257-9CC6-4A34C8DF5348}</Project>
+      <Name>U8Global</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

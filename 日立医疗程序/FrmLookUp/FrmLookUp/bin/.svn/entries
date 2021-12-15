@@ -1,0 +1,30 @@
+9
+
+dir
+0
+http://58.248.42.23/svn/u_framework/branches/XuSen/Source/FrmLookUp/FrmLookUp/bin
+http://58.248.42.23/svn/u_framework
+add
+
+
+
+
+
+
+
+svn:special svn:externals svn:needs-lock
+
+Release
+dir
+
+
+
+add
+
+Debug
+dir
+
+
+
+add
+

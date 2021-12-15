@@ -1,0 +1,277 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{51654E39-1E67-4A9E-8F37-8325E3B5B7A4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FormMain</RootNamespace>
+    <AssemblyName>FormMain</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <ApplicationIcon>TemplateIcon.ico</ApplicationIcon>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v7.1, Version=7.1.1.0, Culture=neutral, PublicKeyToken=8de1562349429be3" />
+    <Reference Include="DevExpress.LocalizationCHS, Version=7.1.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\NetDLL\DevExpress.DLL\DevExpress.DLL\DevExpress.LocalizationCHS.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v7.1, Version=7.1.1.0, Culture=neutral, PublicKeyToken=8de1562349429be3" />
+    <Reference Include="DevExpress.XtraBars.v7.1, Version=7.1.1.0, Culture=neutral, PublicKeyToken=8de1562349429be3" />
+    <Reference Include="DevExpress.XtraCharts.v7.1, Version=7.1.1.0, Culture=neutral, PublicKeyToken=8de1562349429be3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\NetDLL\DevExpress.DLL\DevExpress.DLL\DevExpress.XtraCharts.v7.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v7.1, Version=7.1.1.0, Culture=neutral, PublicKeyToken=8de1562349429be3" />
+    <Reference Include="DevExpress.XtraGrid.v7.1, Version=7.1.1.0, Culture=neutral, PublicKeyToken=8de1562349429be3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\NetDLL\DevExpress.DLL\DevExpress.DLL\DevExpress.XtraGrid.v7.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v7.1, Version=7.1.1.0, Culture=neutral, PublicKeyToken=8de1562349429be3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\NetDLL\DevExpress.DLL\DevExpress.DLL\DevExpress.XtraLayout.v7.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar.v7.1, Version=7.1.1.0, Culture=neutral, PublicKeyToken=8de1562349429be3" />
+    <Reference Include="DevExpress.XtraPivotGrid.v7.1, Version=7.1.1.0, Culture=neutral, PublicKeyToken=8de1562349429be3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\NetDLL\DevExpress.DLL\DevExpress.DLL\DevExpress.XtraPivotGrid.v7.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraPivotGrid.v7.1.Core, Version=7.1.1.0, Culture=neutral, PublicKeyToken=8de1562349429be3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\NetDLL\DevExpress.DLL\DevExpress.DLL\DevExpress.XtraPivotGrid.v7.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v7.1, Version=7.1.1.0, Culture=neutral, PublicKeyToken=8de1562349429be3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\NetDLL\DevExpress.DLL\DevExpress.DLL\DevExpress.XtraPrinting.v7.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v7.1, Version=7.1.1.0, Culture=neutral, PublicKeyToken=8de1562349429be3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\NetDLL\DevExpress.DLL\DevExpress.DLL\DevExpress.XtraReports.v7.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v7.1, Version=7.1.1.0, Culture=neutral, PublicKeyToken=8de1562349429be3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\NetDLL\DevExpress.DLL\DevExpress.DLL\DevExpress.XtraScheduler.v7.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v7.1, Version=7.1.1.0, Culture=neutral, PublicKeyToken=8de1562349429be3" />
+    <Reference Include="DevExpress.XtraVerticalGrid.v7.1, Version=7.1.1.0, Culture=neutral, PublicKeyToken=8de1562349429be3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\NetDLL\DevExpress.DLL\DevExpress.DLL\DevExpress.XtraVerticalGrid.v7.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.U8Login, Version=1.14.0.0, Culture=neutral, PublicKeyToken=79a4e7ad54eeabca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\U8dll\Interop.U8Login.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UFBaseLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\U8dll\UFBaseLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DB.cs" />
+    <Compile Include="EntityValidator.cs" />
+    <Compile Include="FormExampleData.cs" />
+    <Compile Include="FormExample_Index.cs" />
+    <Compile Include="FormExample_SubIndex.cs" />
+    <Compile Include="FrmBaseTitleSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBaseTitleSet.Designer.cs">
+      <DependentUpon>FrmBaseTitleSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FromMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FromMain.Designer.cs">
+      <DependentUpon>FromMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IniFile.cs" />
+    <Compile Include="LoginBAL\LoginBL.cs" />
+    <Compile Include="Login\FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login\FrmRole.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login\FrmRole.Designer.cs">
+      <DependentUpon>FrmRole.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login\FrmRoleUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login\FrmRoleUser.Designer.cs">
+      <DependentUpon>FrmRoleUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login\FrmUserManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login\FrmUserManager.Designer.cs">
+      <DependentUpon>FrmUserManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login\FrmUserUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login\FrmUserUpdate.Designer.cs">
+      <DependentUpon>FrmUserUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login\FrmUser_Permissions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login\FrmUser_Permissions.Designer.cs">
+      <DependentUpon>FrmUser_Permissions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login\LoginNone.cs" />
+    <Compile Include="Login\LoginSelf.cs" />
+    <Compile Include="Login\LoginTypeBase.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmBaseTitleSet.resx">
+      <DependentUpon>FrmBaseTitleSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FromMain.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FromMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login\FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login\FrmRole.resx">
+      <DependentUpon>FrmRole.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login\FrmRoleUser.resx">
+      <DependentUpon>FrmRoleUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login\FrmUserManager.resx">
+      <DependentUpon>FrmUserManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login\FrmUserUpdate.resx">
+      <DependentUpon>FrmUserUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login\FrmUser_Permissions.resx">
+      <DependentUpon>FrmUser_Permissions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Login\LoginU8.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\ProjectManagement\ProjectManagement.csproj">
+      <Project>{CA5CF55B-1ABE-4363-A24F-E816031615CD}</Project>
+      <Name>ProjectManagement</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\BillBase\BillBase\BillBase.csproj">
+      <Project>{A841E4DD-6182-40E6-A880-E466F6DAB7AE}</Project>
+      <Name>BillBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\FrmLookUp\FrmLookUp\FrmLookUp.csproj">
+      <Project>{01BB71DB-32EF-4CE1-8816-BFD923E6A073}</Project>
+      <Name>FrmLookUp</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\IImportData\Global.csproj">
+      <Project>{CDA22C4E-437E-47C0-887C-8EED17F13A17}</Project>
+      <Name>Global</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Message\Message\Message.csproj">
+      <Project>{79DBF057-614E-426D-A83B-AB1754369FBF}</Project>
+      <Name>Message</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Login2.JPG" />
+    <None Include="bin\Debug\Login3.JPG" />
+    <None Include="bin\Debug\Login.JPG" />
+    <Content Include="TemplateIcon.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

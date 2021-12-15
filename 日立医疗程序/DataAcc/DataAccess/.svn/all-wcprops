@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/u_framework/!svn/ver/1618/branches/XuSen/Source/DataAcc/DataAccess
+END
+LookUpCustomer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/u_framework/!svn/ver/1618/branches/XuSen/Source/DataAcc/DataAccess/LookUpCustomer.cs
+END
+LookUpPrd.cs
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/u_framework/!svn/ver/1618/branches/XuSen/Source/DataAcc/DataAccess/LookUpPrd.cs
+END
+ILookUp2.cs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/u_framework/!svn/ver/1618/branches/XuSen/Source/DataAcc/DataAccess/ILookUp2.cs
+END
+Prd.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/u_framework/!svn/ver/1618/branches/XuSen/Source/DataAcc/DataAccess/Prd.cs
+END
+DataAccess.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/u_framework/!svn/ver/1618/branches/XuSen/Source/DataAcc/DataAccess/DataAccess.csproj
+END
+PrdType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/u_framework/!svn/ver/1618/branches/XuSen/Source/DataAcc/DataAccess/PrdType.cs
+END
+LookUpSQL.cs
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/u_framework/!svn/ver/1618/branches/XuSen/Source/DataAcc/DataAccess/LookUpSQL.cs
+END

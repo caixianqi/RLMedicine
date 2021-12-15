@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Report">
+</Property><Property Name="解决方案文件" Value="G:\GlobItem\Report\Report.sln">
+</Property><Property Name="用户选项文件" Value="G:\GlobItem\Report\Report.suo">
+</Property><Property Name="Date" Value="2008年9月19日">
+</Property><Property Name="Time" Value="17:37">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Report.sln" Description="文件已成功备份为 G:\GlobItem\Report\Backup\Report.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Report.suo" Description="文件已成功备份为 G:\GlobItem\Report\Backup\Report.suo">
+</Event><Event ErrorLevel="0" Project="Report" Source="Report\Report.csproj" Description="项目文件已成功备份为 G:\GlobItem\Report\Backup\Report\Report.csproj">
+</Event><Event ErrorLevel="0" Project="Report" Source="Report\FormFilterBase.cs" Description="文件已成功备份为 G:\GlobItem\Report\Backup\Report\FormFilterBase.cs">
+</Event><Event ErrorLevel="0" Project="Report" Source="Report\FormFilterBase.Designer.cs" Description="文件已成功备份为 G:\GlobItem\Report\Backup\Report\FormFilterBase.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Report" Source="Report\Properties\AssemblyInfo.cs" Description="文件已成功备份为 G:\GlobItem\Report\Backup\Report\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Report" Source="Report\Properties\Resources.Designer.cs" Description="文件已成功备份为 G:\GlobItem\Report\Backup\Report\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Report" Source="Report\RptControl.cs" Description="文件已成功备份为 G:\GlobItem\Report\Backup\Report\RptControl.cs">
+</Event><Event ErrorLevel="0" Project="Report" Source="Report\RptControl.Designer.cs" Description="文件已成功备份为 G:\GlobItem\Report\Backup\Report\RptControl.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Report" Source="Report\TableEventArge.cs" Description="文件已成功备份为 G:\GlobItem\Report\Backup\Report\TableEventArge.cs">
+</Event><Event ErrorLevel="0" Project="Report" Source="Report\FormFilterBase.resx" Description="文件已成功备份为 G:\GlobItem\Report\Backup\Report\FormFilterBase.resx">
+</Event><Event ErrorLevel="0" Project="Report" Source="Report\Properties\Resources.resx" Description="文件已成功备份为 G:\GlobItem\Report\Backup\Report\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="Report" Source="Report\RptControl.resx" Description="文件已成功备份为 G:\GlobItem\Report\Backup\Report\RptControl.resx">
+</Event><Event ErrorLevel="0" Project="Report" Source="Report\Report.csproj" Description="项目文件不需要转换。">
+</Event><Event ErrorLevel="3" Project="Report" Source="Report\Report.csproj" Description="无需转换">
+</Event><Event ErrorLevel="1" Project="Global" Source="..\..\科技院\Project\IImportData\Global.csproj" Description="警告: 正将项目文件备份到与原始解决方案相对路径不同的相对路径中。文件夹层次结构上的差异可能会导致在打开或生成备份的解决方案和项目时出现问题。">
+</Event><Event ErrorLevel="0" Project="Global" Source="..\..\科技院\Project\IImportData\Global.csproj" Description="项目文件已成功备份为 G:\GlobItem\Report\Backup\Global\Global.csproj">
+</Event><Event ErrorLevel="0" Project="Global" Source="..\..\科技院\Project\IImportData\Global.csproj.user" Description="项目用户文件成功备份为 G:\GlobItem\Report\Backup\Global\Global.csproj.user">
+</Event><Event ErrorLevel="0" Project="Global" Source="..\..\科技院\Project\IImportData\ExceptionBao.cs" Description="文件已成功备份为 G:\GlobItem\Report\Backup\Global\ExceptionBao.cs">
+</Event><Event ErrorLevel="0" Project="Global" Source="..\..\科技院\Project\IImportData\IAnalysis.cs" Description="文件已成功备份为 G:\GlobItem\Report\Backup\Global\IAnalysis.cs">
+</Event><Event ErrorLevel="0" Project="Global" Source="..\..\科技院\Project\IImportData\DataAcc.cs" Description="文件已成功备份为 G:\GlobItem\Report\Backup\Global\DataAcc.cs">
+</Event><Event ErrorLevel="0" Project="Global" Source="..\..\科技院\Project\IImportData\IdelegateError.cs" Description="文件已成功备份为 G:\GlobItem\Report\Backup\Global\IdelegateError.cs">
+</Event><Event ErrorLevel="0" Project="Global" Source="..\..\科技院\Project\IImportData\IniProcess.cs" Description="文件已成功备份为 G:\GlobItem\Report\Backup\Global\IniProcess.cs">
+</Event><Event ErrorLevel="0" Project="Global" Source="..\..\科技院\Project\IImportData\IAnalysisAndSQL.cs" Description="文件已成功备份为 G:\GlobItem\Report\Backup\Global\IAnalysisAndSQL.cs">
+</Event><Event ErrorLevel="0" Project="Global" Source="..\..\科技院\Project\IImportData\ITranSactionSQL.cs" Description="文件已成功备份为 G:\GlobItem\Report\Backup\Global\ITranSactionSQL.cs">
+</Event><Event ErrorLevel="0" Project="Global" Source="..\..\科技院\Project\IImportData\Properties\AssemblyInfo.cs" Description="文件已成功备份为 G:\GlobItem\Report\Backup\Global\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Global" Source="..\..\科技院\Project\IImportData\ClassDiagram1.cd" Description="文件已成功备份为 G:\GlobItem\Report\Backup\Global\ClassDiagram1.cd">
+</Event><Event ErrorLevel="0" Project="Global" Source="..\..\科技院\Project\IImportData\Global.csproj" Description="项目文件不需要转换。">
+</Event><Event ErrorLevel="3" Project="Global" Source="..\..\科技院\Project\IImportData\Global.csproj" Description="无需转换">
+</Event><Event ErrorLevel="1" Project="FrmLookUp" Source="..\FrmLookUp\FrmLookUp\FrmLookUp.csproj" Description="警告: 正将项目文件备份到与原始解决方案相对路径不同的相对路径中。文件夹层次结构上的差异可能会导致在打开或生成备份的解决方案和项目时出现问题。">
+</Event><Event ErrorLevel="0" Project="FrmLookUp" Source="..\FrmLookUp\FrmLookUp\FrmLookUp.csproj" Description="项目文件已成功备份为 G:\GlobItem\Report\Backup\FrmLookUp\FrmLookUp.csproj">
+</Event><Event ErrorLevel="0" Project="FrmLookUp" Source="..\FrmLookUp\FrmLookUp\BillUpDateState.cs" Description="文件已成功备份为 G:\GlobItem\Report\Backup\FrmLookUp\BillUpDateState.cs">
+</Event><Event ErrorLevel="0" Project="FrmLookUp" Source="..\FrmLookUp\FrmLookUp\frmColumnFilter.cs" Description="文件已成功备份为 G:\GlobItem\Report\Backup\FrmLookUp\frmColumnFilter.cs">
+</Event><Event ErrorLevel="0" Project="FrmLookUp" Source="..\FrmLookUp\FrmLookUp\frmColumnFilter.Designer.cs" Description="文件已成功备份为 G:\GlobItem\Report\Backup\FrmLookUp\frmColumnFilter.Designer.cs">
+</Event><Event ErrorLevel="0" Project="FrmLookUp" Source="..\FrmLookUp\FrmLookUp\FrmLookUpBase.cs" Description="文件已成功备份为 G:\GlobItem\Report\Backup\FrmLookUp\FrmLookUpBase.cs">
+</Event><Event ErrorLevel="0" Project="FrmLookUp" Source="..\FrmLookUp\FrmLookUp\FrmLookUpBase.Designer.cs" Description="文件已成功备份为 G:\GlobItem\Report\Backup\FrmLookUp\FrmLookUpBase.Designer.cs">
+</Event><Event ErrorLevel="0" Project="FrmLookUp" Source="..\FrmLookUp\FrmLookUp\LookUpBox.cs" Description="文件已成功备份为 G:\GlobItem\Report\Backup\FrmLookUp\LookUpBox.cs">
+</Event><Event ErrorLevel="0" Project="FrmLookUp" Source="..\FrmLookUp\FrmLookUp\LookUpBox.Designer.cs" Description="文件已成功备份为 G:\GlobItem\Report\Backup\FrmLookUp\LookUpBox.Designer.cs">
+</Event><Event ErrorLevel="0" Project="FrmLookUp" Source="..\FrmLookUp\FrmLookUp\LookUpEventArgs.cs" Description="文件已成功备份为 G:\GlobItem\Report\Backup\FrmLookUp\LookUpEventArgs.cs">
+</Event><Event ErrorLevel="0" Project="FrmLookUp" Source="..\FrmLookUp\FrmLookUp\BaoButton.cs" Description="文件已成功备份为 G:\GlobItem\Report\Backup\FrmLookUp\BaoButton.cs">
+</Event><Event ErrorLevel="0" Project="FrmLookUp" Source="..\FrmLookUp\FrmLookUp\BaoButton.Designer.cs" Description="文件已成功备份为 G:\GlobItem\Report\Backup\FrmLookUp\BaoButton.Designer.cs">
+</Event><Event ErrorLevel="0" Project="FrmLookUp" Source="..\FrmLookUp\FrmLookUp\ToolBarBill.cs" Description="文件已成功备份为 G:\GlobItem\Report\Backup\FrmLookUp\ToolBarBill.cs">
+</Event><Event ErrorLevel="0" Project="FrmLookUp" Source="..\FrmLookUp\FrmLookUp\ToolBarBill.Designer.cs" Description="文件已成功备份为 G:\GlobItem\Report\Backup\FrmLookUp\ToolBarBill.Designer.cs">
+</Event><Event ErrorLevel="0" Project="FrmLookUp" Source="..\FrmLookUp\FrmLookUp\frmColumnFilter.resx" Description="文件已成功备份为 G:\GlobItem\Report\Backup\FrmLookUp\frmColumnFilter.resx">
+</Event><Event ErrorLevel="0" Project="FrmLookUp" Source="..\FrmLookUp\FrmLookUp\FrmLookUpBase.resx" Description="文件已成功备份为 G:\GlobItem\Report\Backup\FrmLookUp\FrmLookUpBase.resx">
+</Event><Event ErrorLevel="0" Project="FrmLookUp" Source="..\FrmLookUp\FrmLookUp\BaoButton.resx" Description="文件已成功备份为 G:\GlobItem\Report\Backup\FrmLookUp\BaoButton.resx">
+</Event><Event ErrorLevel="0" Project="FrmLookUp" Source="..\FrmLookUp\FrmLookUp\LookUpBox.resx" Description="文件已成功备份为 G:\GlobItem\Report\Backup\FrmLookUp\LookUpBox.resx">
+</Event><Event ErrorLevel="0" Project="FrmLookUp" Source="..\FrmLookUp\FrmLookUp\ToolBarBill.resx" Description="文件已成功备份为 G:\GlobItem\Report\Backup\FrmLookUp\ToolBarBill.resx">
+</Event><Event ErrorLevel="0" Project="FrmLookUp" Source="..\FrmLookUp\FrmLookUp\FrmLookUp.csproj" Description="项目文件不需要转换。">
+</Event><Event ErrorLevel="3" Project="FrmLookUp" Source="..\FrmLookUp\FrmLookUp\FrmLookUp.csproj" Description="无需转换">
+</Event><Event ErrorLevel="0" Project="test" Source="test\test.csproj" Description="项目文件已成功备份为 G:\GlobItem\Report\Backup\test\test.csproj">
+</Event><Event ErrorLevel="0" Project="test" Source="test\Form1.cs" Description="文件已成功备份为 G:\GlobItem\Report\Backup\test\Form1.cs">
+</Event><Event ErrorLevel="0" Project="test" Source="test\Form1.Designer.cs" Description="文件已成功备份为 G:\GlobItem\Report\Backup\test\Form1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="test" Source="test\Program.cs" Description="文件已成功备份为 G:\GlobItem\Report\Backup\test\Program.cs">
+</Event><Event ErrorLevel="0" Project="test" Source="test\Properties\AssemblyInfo.cs" Description="文件已成功备份为 G:\GlobItem\Report\Backup\test\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="test" Source="test\Properties\Resources.Designer.cs" Description="文件已成功备份为 G:\GlobItem\Report\Backup\test\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="test" Source="test\Properties\Settings.Designer.cs" Description="文件已成功备份为 G:\GlobItem\Report\Backup\test\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="test" Source="test\Properties\Settings.settings" Description="文件已成功备份为 G:\GlobItem\Report\Backup\test\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="test" Source="test\Form1.resx" Description="文件已成功备份为 G:\GlobItem\Report\Backup\test\Form1.resx">
+</Event><Event ErrorLevel="0" Project="test" Source="test\Properties\Resources.resx" Description="文件已成功备份为 G:\GlobItem\Report\Backup\test\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="test" Source="test\test.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="test" Source="test\test.csproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="DataAccess" Source="..\DataAcc\DataAccess\DataAccess.csproj" Description="警告: 正将项目文件备份到与原始解决方案相对路径不同的相对路径中。文件夹层次结构上的差异可能会导致在打开或生成备份的解决方案和项目时出现问题。">
+</Event><Event ErrorLevel="0" Project="DataAccess" Source="..\DataAcc\DataAccess\DataAccess.csproj" Description="项目文件已成功备份为 G:\GlobItem\Report\Backup\DataAccess\DataAccess.csproj">
+</Event><Event ErrorLevel="0" Project="DataAccess" Source="..\DataAcc\DataAccess\LookUpCustomer.cs" Description="文件已成功备份为 G:\GlobItem\Report\Backup\DataAccess\LookUpCustomer.cs">
+</Event><Event ErrorLevel="0" Project="DataAccess" Source="..\DataAcc\DataAccess\ILookUp2.cs" Description="文件已成功备份为 G:\GlobItem\Report\Backup\DataAccess\ILookUp2.cs">
+</Event><Event ErrorLevel="0" Project="DataAccess" Source="..\DataAcc\DataAccess\LookUpPrd.cs" Description="文件已成功备份为 G:\GlobItem\Report\Backup\DataAccess\LookUpPrd.cs">
+</Event><Event ErrorLevel="0" Project="DataAccess" Source="..\DataAcc\DataAccess\LookUpSQL.cs" Description="文件已成功备份为 G:\GlobItem\Report\Backup\DataAccess\LookUpSQL.cs">
+</Event><Event ErrorLevel="0" Project="DataAccess" Source="..\DataAcc\DataAccess\Prd.cs" Description="文件已成功备份为 G:\GlobItem\Report\Backup\DataAccess\Prd.cs">
+</Event><Event ErrorLevel="0" Project="DataAccess" Source="..\DataAcc\DataAccess\PrdType.cs" Description="文件已成功备份为 G:\GlobItem\Report\Backup\DataAccess\PrdType.cs">
+</Event><Event ErrorLevel="0" Project="DataAccess" Source="..\DataAcc\DataAccess\Properties\AssemblyInfo.cs" Description="文件已成功备份为 G:\GlobItem\Report\Backup\DataAccess\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="DataAccess" Source="..\DataAcc\DataAccess\DataAccess.csproj" Description="项目文件不需要转换。">
+</Event><Event ErrorLevel="3" Project="DataAccess" Source="..\DataAcc\DataAccess\DataAccess.csproj" Description="无需转换">
+</Event><Event ErrorLevel="0" Project="" Source="Report.sln" Description="成功转换解决方案">
+</Event><Event ErrorLevel="3" Project="" Source="Report.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="test" Source="test\test.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event></UpgradeLog>

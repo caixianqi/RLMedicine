@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/u_framework/!svn/ver/1225/branches/ribin/Source/FormMain/FormMain/Login
+END
+FrmUser_Permissions.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/u_framework/!svn/ver/662/branches/ribin/Source/FormMain/FormMain/Login/FrmUser_Permissions.Designer.cs
+END
+FrmUserManager.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/u_framework/!svn/ver/740/branches/ribin/Source/FormMain/FormMain/Login/FrmUserManager.Designer.cs
+END
+FrmLogin.cs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/u_framework/!svn/ver/721/branches/ribin/Source/FormMain/FormMain/Login/FrmLogin.cs
+END
+FrmUser_Permissions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/u_framework/!svn/ver/556/branches/ribin/Source/FormMain/FormMain/Login/FrmUser_Permissions.cs
+END
+FrmUserManager.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/u_framework/!svn/ver/1225/branches/ribin/Source/FormMain/FormMain/Login/FrmUserManager.cs
+END
+FrmRoleUser.resx
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/u_framework/!svn/ver/520/branches/ribin/Source/FormMain/FormMain/Login/FrmRoleUser.resx
+END
+FrmRole.resx
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/u_framework/!svn/ver/519/branches/ribin/Source/FormMain/FormMain/Login/FrmRole.resx
+END
+LoginSelf.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/u_framework/!svn/ver/1027/branches/ribin/Source/FormMain/FormMain/Login/LoginSelf.cs
+END
+FrmUserUpdate.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/u_framework/!svn/ver/273/branches/ribin/Source/FormMain/FormMain/Login/FrmUserUpdate.Designer.cs
+END
+LoginU8.cs
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/u_framework/!svn/ver/4/branches/ribin/Source/FormMain/FormMain/Login/LoginU8.cs
+END
+FrmUserUpdate.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/u_framework/!svn/ver/273/branches/ribin/Source/FormMain/FormMain/Login/FrmUserUpdate.cs
+END
+LoginNone.cs
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/u_framework/!svn/ver/4/branches/ribin/Source/FormMain/FormMain/Login/LoginNone.cs
+END
+FrmLogin.resx
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/u_framework/!svn/ver/270/branches/ribin/Source/FormMain/FormMain/Login/FrmLogin.resx
+END
+FrmUserManager.resx
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/u_framework/!svn/ver/272/branches/ribin/Source/FormMain/FormMain/Login/FrmUserManager.resx
+END
+FrmUser_Permissions.resx
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/u_framework/!svn/ver/271/branches/ribin/Source/FormMain/FormMain/Login/FrmUser_Permissions.resx
+END
+FrmUserUpdate.resx
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/u_framework/!svn/ver/273/branches/ribin/Source/FormMain/FormMain/Login/FrmUserUpdate.resx
+END
+FrmRoleUser.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/u_framework/!svn/ver/520/branches/ribin/Source/FormMain/FormMain/Login/FrmRoleUser.Designer.cs
+END
+FrmRoleUser.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/u_framework/!svn/ver/772/branches/ribin/Source/FormMain/FormMain/Login/FrmRoleUser.cs
+END
+FrmRole.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/u_framework/!svn/ver/519/branches/ribin/Source/FormMain/FormMain/Login/FrmRole.Designer.cs
+END
+LoginTypeBase.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/u_framework/!svn/ver/4/branches/ribin/Source/FormMain/FormMain/Login/LoginTypeBase.cs
+END
+FrmRole.cs
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/u_framework/!svn/ver/771/branches/ribin/Source/FormMain/FormMain/Login/FrmRole.cs
+END

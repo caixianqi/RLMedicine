@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/u_framework/!svn/ver/129/branches/ribin/Source/MessageServer/MessageServer
+END
+FrmMessageServer.resx
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/u_framework/!svn/ver/1236/branches/ribin/Source/MessageServer/MessageServer/FrmMessageServer.resx
+END
+FrmMessageServer.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/u_framework/!svn/ver/1236/branches/ribin/Source/MessageServer/MessageServer/FrmMessageServer.Designer.cs
+END
+FrmMessageServer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/u_framework/!svn/ver/1236/branches/ribin/Source/MessageServer/MessageServer/FrmMessageServer.cs
+END
+FrmMessageSet.resx
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/u_framework/!svn/ver/4/branches/ribin/Source/MessageServer/MessageServer/FrmMessageSet.resx
+END
+FrmMessageSet.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/u_framework/!svn/ver/1237/branches/ribin/Source/MessageServer/MessageServer/FrmMessageSet.Designer.cs
+END
+FrmMessageSet.cs
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/u_framework/!svn/ver/1237/branches/ribin/Source/MessageServer/MessageServer/FrmMessageSet.cs
+END
+MessageServer.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/u_framework/!svn/ver/14/branches/ribin/Source/MessageServer/MessageServer/MessageServer.csproj
+END
+Program.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/u_framework/!svn/ver/129/branches/ribin/Source/MessageServer/MessageServer/Program.cs
+END

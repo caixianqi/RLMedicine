@@ -1,0 +1,51 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Bao.Message
+{
+    public class CMessage
+    {
+        /// <summary>
+        /// 发送消息
+        /// </summary>
+        /// <param name="msgTitle">标题</param>
+        /// <param name="msgBody">内容</param>
+        /// <param name="DescUserId">接受者</param>
+        /// <param name="SourceUserId">发送者</param>
+        /// <param name="FunctionId">功能编号</param>
+        /// <param name="BillKeyId">单据编号</param>
+        public static void SendMessage( string msgTitle, string msgBody, string DescUserId, string SourceUserId, string FunctionId, string BillKeyId)
+        {
+            string sql = "insert into BaoSystem..TMessageAuto(MessageTitle,MessageBody,MessageDate,DescUserId,SourceUserId,IsBrows,BrowsDate,FunctionId,BillKeyId)" +
+                    " values ('"+msgTitle +"','"+msgBody+"',getdate(),'"+DescUserId+"','"+SourceUserId+"','0',null,'"+FunctionId+"','"+BillKeyId+"')";
+            Bao.DataAccess.DataAcc.ExecuteNotQuery(sql);
+        }
+        /// <summary>
+        /// 接收消息
+        /// </summary>
+        /// <param name="DescUserId">接收人编号</param>
+        /// <param name="BeginDate">消息开始时间</param>
+        /// <param name="EndDate">消息结束时间</param>
+        /// <param name="IsNotReadMessage">是否未读过的消息</param>
+        public static System.Data.DataTable  RecieveMessage(string DescUserId, System.DateTime BeginDate, System.DateTime EndDate, Boolean  IsNotReadMessage)
+        {
+
+            string sql = "select a.*,b.DLLName,b.WorkName,c.UserName,b.Title,b.TitleGroup,a.BillKeyId as Param " +
+                " from BaoSystem..TMessageAuto a left outer join BaoSystem..TFunctions b on a.FunctionId=b.FunctionId "+
+                "  left outer join  BaoSystem..Users c on a.SourceUserId=c.AutoUserId  " +
+                " where a.DescUserId='" + DescUserId +
+                "' and MessageDate>='"+BeginDate+"' and MessageDate<='"+EndDate+"'";
+            if (IsNotReadMessage)
+                sql = sql + " and IsBrows='0' ";
+            return  Bao.DataAccess.DataAcc.ExecuteQuery(sql);
+        }
+        public static void SendReadedFlag(string MessageId)
+        {
+            string sql = "Update BaoSystem..TMessageAuto set IsBrows='1',BrowsDate=getdate() where MessageId='" + MessageId + "' ";
+            Bao.DataAccess.DataAcc.ExecuteNotQuery(sql);
+        }
+
+    }
+}

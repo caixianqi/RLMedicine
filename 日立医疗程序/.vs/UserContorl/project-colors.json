@@ -1,0 +1,66 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "51654e39-1e67-4a9e-8f37-8325e3b5b7a4": {
+      "ProjectGuid": "51654e39-1e67-4a9e-8f37-8325e3b5b7a4",
+      "DisplayName": "FormMain",
+      "ColorIndex": 0
+    },
+    "01bb71db-32ef-4ce1-8816-bfd923e6a073": {
+      "ProjectGuid": "01bb71db-32ef-4ce1-8816-bfd923e6a073",
+      "DisplayName": "FrmLookUp",
+      "ColorIndex": 1
+    },
+    "cda22c4e-437e-47c0-887c-8eed17f13a17": {
+      "ProjectGuid": "cda22c4e-437e-47c0-887c-8eed17f13a17",
+      "DisplayName": "Global",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "杂项文件",
+      "ColorIndex": -1
+    },
+    "bbcf10b4-90df-413d-b8e6-aa14bf714d9f": {
+      "ProjectGuid": "bbcf10b4-90df-413d-b8e6-aa14bf714d9f",
+      "DisplayName": "Install",
+      "ColorIndex": 3
+    },
+    "d56fbc39-1d38-4814-87f8-d4185b82b2ed": {
+      "ProjectGuid": "d56fbc39-1d38-4814-87f8-d4185b82b2ed",
+      "DisplayName": "Repair",
+      "ColorIndex": 4
+    },
+    "cf09f575-015e-4d86-91dd-80cc3291583d": {
+      "ProjectGuid": "cf09f575-015e-4d86-91dd-80cc3291583d",
+      "DisplayName": "InsMessage",
+      "ColorIndex": 5
+    },
+    "425022fe-7d67-42c0-a3c6-0976549e9d47": {
+      "ProjectGuid": "425022fe-7d67-42c0-a3c6-0976549e9d47",
+      "DisplayName": "RLBase",
+      "ColorIndex": 6
+    },
+    "a841e4dd-6182-40e6-a880-e466f6dab7ae": {
+      "ProjectGuid": "a841e4dd-6182-40e6-a880-e466f6dab7ae",
+      "DisplayName": "BillBase",
+      "ColorIndex": 7
+    },
+    "f5d593ba-4c43-4392-8a48-aa79b29db1fb": {
+      "ProjectGuid": "f5d593ba-4c43-4392-8a48-aa79b29db1fb",
+      "DisplayName": "RiLiGlobal",
+      "ColorIndex": 8
+    },
+    "f6f6243c-0517-4976-b7a3-6bbf0de3edee": {
+      "ProjectGuid": "f6f6243c-0517-4976-b7a3-6bbf0de3edee",
+      "DisplayName": "Common",
+      "ColorIndex": 9
+    },
+    "9f0904a9-399c-4ce8-9914-493439390d68": {
+      "ProjectGuid": "9f0904a9-399c-4ce8-9914-493439390d68",
+      "DisplayName": "Inscallback",
+      "ColorIndex": 10
+    }
+  },
+  "NextColorIndex": 11
+}

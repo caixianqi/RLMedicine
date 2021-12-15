@@ -1,0 +1,58 @@
+8
+
+dir
+0
+http://58.248.42.23/svn/u_framework/branches/XuSen/Source/FrmLookUp/_UpgradeReport_Files
+http://58.248.42.23/svn/u_framework
+add
+
+
+
+
+
+
+
+svn:special svn:externals svn:needs-lock
+
+UpgradeReport_Minus.gif
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+UpgradeReport.css
+file
+
+
+
+add
+
+UpgradeReport_Plus.gif
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+UpgradeReport.xslt
+file
+
+
+
+add
+

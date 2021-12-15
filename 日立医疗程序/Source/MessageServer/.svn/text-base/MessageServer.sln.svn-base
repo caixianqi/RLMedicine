@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageServer", "MessageServer\MessageServer.csproj", "{A71E0509-549E-40D9-92C8-E2615491C693}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A71E0509-549E-40D9-92C8-E2615491C693}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A71E0509-549E-40D9-92C8-E2615491C693}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A71E0509-549E-40D9-92C8-E2615491C693}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A71E0509-549E-40D9-92C8-E2615491C693}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

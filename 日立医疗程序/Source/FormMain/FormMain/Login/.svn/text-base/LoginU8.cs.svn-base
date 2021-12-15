@@ -1,0 +1,28 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace FormMain
+{
+    class LoginU8 : LoginTypeBase
+    {
+        public override void Authorization(Bao.Interface.IU8Contral ctr1)
+        {
+           // if (UFBaseLib.BusLib.BaseInfo.U8Login == null)
+           //     throw new Exception("登陆对象为空,可能是Interop.U8Login.dll 文件存在问题");
+           // else
+                ((Bao.Interface.IU8Contral)ctr1).Authorization();
+        }
+        public override Boolean  Login()
+        {
+            return UFBaseLib.BusLib.Bus.Login(0, "asdfds", "", "", "", "", "", "", "", "");
+            
+        }
+        public override System.Data.DataSet  ReadFunction()
+        {
+           System.Data.DataSet Bills=new System.Data.DataSet() ;
+           Bills.ReadXml(System.Windows.Forms.Application.StartupPath + "\\" + "SFDll.XML");
+           return Bills;
+        }
+    }
+}

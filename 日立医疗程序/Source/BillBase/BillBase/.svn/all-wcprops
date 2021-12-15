@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/u_framework/!svn/ver/1464/branches/ribin/Source/BillBase/BillBase
+END
+FrmBillBaseTwo.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/u_framework/!svn/ver/4/branches/ribin/Source/BillBase/BillBase/FrmBillBaseTwo.Designer.cs
+END
+FrmBillBaseTwo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/u_framework/!svn/ver/4/branches/ribin/Source/BillBase/BillBase/FrmBillBaseTwo.cs
+END
+BillBase.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/u_framework/!svn/ver/1215/branches/ribin/Source/BillBase/BillBase/BillBase.cs
+END
+IChildForm.cs
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/u_framework/!svn/ver/1221/branches/ribin/Source/BillBase/BillBase/IChildForm.cs
+END
+FrmBillBase.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/u_framework/!svn/ver/911/branches/ribin/Source/BillBase/BillBase/FrmBillBase.Designer.cs
+END
+FrmBillBase.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/u_framework/!svn/ver/1491/branches/ribin/Source/BillBase/BillBase/FrmBillBase.cs
+END
+Frmbasis.resx
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/u_framework/!svn/ver/4/branches/ribin/Source/BillBase/BillBase/Frmbasis.resx
+END
+IChildClose.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/u_framework/!svn/ver/1363/branches/ribin/Source/BillBase/BillBase/IChildClose.cs
+END
+ICode.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/u_framework/!svn/ver/1364/branches/ribin/Source/BillBase/BillBase/ICode.cs
+END
+EntityTable.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/u_framework/!svn/ver/1216/branches/ribin/Source/BillBase/BillBase/EntityTable.cs
+END
+FrmBillBaseTwo.resx
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/u_framework/!svn/ver/4/branches/ribin/Source/BillBase/BillBase/FrmBillBaseTwo.resx
+END
+EntityTableMain.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/u_framework/!svn/ver/1218/branches/ribin/Source/BillBase/BillBase/EntityTableMain.cs
+END
+CommonMethod.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/u_framework/!svn/ver/244/branches/ribin/Source/BillBase/BillBase/CommonMethod.cs
+END
+LookUpBasis.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/u_framework/!svn/ver/4/branches/ribin/Source/BillBase/BillBase/LookUpBasis.Designer.cs
+END
+LookUpBasis.cs
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/u_framework/!svn/ver/770/branches/ribin/Source/BillBase/BillBase/LookUpBasis.cs
+END
+ClassDiagram1.cd
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/u_framework/!svn/ver/4/branches/ribin/Source/BillBase/BillBase/ClassDiagram1.cd
+END
+FrmBillBase.resx
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/u_framework/!svn/ver/853/branches/ribin/Source/BillBase/BillBase/FrmBillBase.resx
+END
+EntityTableItem.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/u_framework/!svn/ver/1217/branches/ribin/Source/BillBase/BillBase/EntityTableItem.cs
+END
+IDataModel.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/u_framework/!svn/ver/4/branches/ribin/Source/BillBase/BillBase/IDataModel.cs
+END
+Frmbasis.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/u_framework/!svn/ver/1033/branches/ribin/Source/BillBase/BillBase/Frmbasis.Designer.cs
+END
+Frmbasis.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/u_framework/!svn/ver/1219/branches/ribin/Source/BillBase/BillBase/Frmbasis.cs
+END
+BillBaseTwo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/u_framework/!svn/ver/4/branches/ribin/Source/BillBase/BillBase/BillBaseTwo.cs
+END
+LookUpBasis.resx
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/u_framework/!svn/ver/4/branches/ribin/Source/BillBase/BillBase/LookUpBasis.resx
+END
+BillBase.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/u_framework/!svn/ver/568/branches/ribin/Source/BillBase/BillBase/BillBase.csproj
+END
